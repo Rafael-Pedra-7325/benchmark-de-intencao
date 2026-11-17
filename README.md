@@ -10,7 +10,7 @@ três famílias de abordagem na mesma base, com o mesmo split e as mesmas métri
 |---|---|
 | **TF-IDF + Regressão Logística** | baseline clássico de ML, com busca de hiperparâmetros validada por grupo |
 | **Embeddings + Regressão Logística** | encoder multilíngue pré-treinado (`sentence-transformers`) congelado + LR |
-| **LLM zero-shot** | o modelo recebe a lista de intenções e classifica via API, sem nenhum treino |
+| **LLM zero-shot** | o modelo recebe a lista de intenções e classifica via API (Groq), sem nenhum treino |
 | *LSA + LR (extra)* | representação densa 100% local (TF-IDF → SVD), usada como "embedding" offline |
 
 A pergunta que o projeto responde: **quanto você ganha em acurácia ao trocar um modelo barato e rápido
@@ -26,7 +26,7 @@ Números gerados por `python -m benchmark_intencao`; relatório detalhado e matr
 | TF-IDF + Regressão Logística | 0.595 (0.46–0.72) | 0.588 | 0.52 | 0 (local) |
 | LSA (TF-IDF + SVD) + Regressão Logística | 0.407 (0.29–0.53) | 0.384 | 1.10 | 0 (local) |
 | Embeddings + LR | *preencher após rodar* | *-* | *-* | 0 (local) |
-| LLM zero-shot (`claude-haiku-4-5`) | *preencher após rodar* | *-* | *-* | *-* |
+| LLM zero-shot (`llama-3.1-8b-instant`) | *preencher após rodar* | *-* | *-* | *-* |
 
 ![Comparação de acurácia e latência entre modelos](resultados/comparacao.png)
 
@@ -45,7 +45,7 @@ cd benchmark-de-intencao
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -e ".[todos]"                               # núcleo + embeddings + LLM
 
-export ANTHROPIC_API_KEY="sua-chave"                   # Windows (PowerShell): $env:ANTHROPIC_API_KEY="sua-chave"
+export GROQ_API_KEY="sua-chave"                        # Windows (PowerShell): $env:GROQ_API_KEY="sua-chave"
 python -m benchmark_intencao                            # roda os 4 modelos
 ```
 
@@ -61,7 +61,7 @@ python -m benchmark_intencao --modelos tfidf lsa
 
 ### 2. Google Colab
 
-Clique no badge "Abrir no Colab" acima. Salve a chave em *Secrets* como `ANTHROPIC_API_KEY`.
+Clique no badge "Abrir no Colab" acima. Crie uma chave gratuita no [Groq Console](https://console.groq.com/) e salve em *Secrets* como `GROQ_API_KEY`.
 
 ### 3. CI (GitHub Actions)
 
@@ -71,20 +71,20 @@ relatório como artefato. Ele **não** baixa modelos nem chama a API (sem custo,
 ## Opções úteis
 
 ```bash
-# Reduz o custo do LLM: amostra estratificada de ~110 linhas de teste
+# Amostra estratificada de ~110 linhas de teste (mais rápido e evita limite de RPM no plano gratuito)
 python -m benchmark_intencao --max-teste 110
 
-# Mostra o custo do LLM (preços em USD por milhão de tokens — confira na página de preços da Anthropic)
+# Simula o custo em produção (USD por milhão de tokens — confira a tabela de preços da Groq)
 python -m benchmark_intencao --preco-entrada <X> --preco-saida <Y>
 
-# Outro modelo de LLM / de embeddings
-python -m benchmark_intencao --llm-modelo claude-haiku-4-5 --modelo-embeddings paraphrase-multilingual-MiniLM-L12-v2
+# Outro modelo de LLM (ex.: llama-3.3-70b-versatile) / de embeddings
+python -m benchmark_intencao --llm-modelo llama-3.3-70b-versatile --modelo-embeddings paraphrase-multilingual-MiniLM-L12-v2
 
 # Seus próprios dados
 python -m benchmark_intencao --dados meu_dataset.csv
 ```
 
-Os preços **não estão fixos no código** de propósito: mudam com o tempo. Sem `--preco-*`, o custo do LLM aparece como `n/d`
+Os preços **não estão fixos no código** de propósito: mudam com o tempo (e o plano gratuito da Groq tem cota sem cobrança). Sem `--preco-*`, o custo do LLM aparece como `n/d`
 (os tokens consumidos ainda são reportados).
 
 ## Decisões de método
@@ -131,7 +131,7 @@ pip install -e ".[dev]" && pytest -q
 ```
 
 O caminho do LLM é testado com um cliente falso (parsing da resposta, retry, contagem de tokens e custo),
-então a suíte nunca gasta dinheiro nem precisa de rede.
+então a suíte nunca consome cota nem precisa de rede.
 
 ## Adicionando um modelo
 
