@@ -39,17 +39,17 @@ class TestEndToEndOffline(unittest.TestCase):
                 self.assertTrue((Path(tmp) / nome).exists(), nome)
             self.assertIn("TF-IDF", (Path(tmp) / "relatorio.md").read_text(encoding="utf-8"))
 
-    # Sem chave de API o LLM é sempre pulado: evita gastar dinheiro real se alguém rodar os testes com a chave no ambiente.
+    # Sem chave de API o LLM é sempre pulado: evita gastar cota real se alguém rodar os testes com a chave no ambiente.
     @mock.patch.dict(os.environ, {}, clear=False)
     def test_modelo_indisponivel_e_pulado_sem_quebrar(self):
-        os.environ.pop("ANTHROPIC_API_KEY", None)
+        os.environ.pop("GROQ_API_KEY", None)
         with tempfile.TemporaryDirectory() as tmp:
             codigo = cli.main(["--modelos", "tfidf", "llm", "--saida", tmp, "--max-teste", "55"])
             self.assertEqual(codigo, 0)  # tfidf rodou; llm foi pulado
 
     @mock.patch.dict(os.environ, {}, clear=False)
     def test_estrito_falha_se_modelo_pulado(self):
-        os.environ.pop("ANTHROPIC_API_KEY", None)
+        os.environ.pop("GROQ_API_KEY", None)
         with tempfile.TemporaryDirectory() as tmp:
             codigo = cli.main(["--modelos", "tfidf", "llm", "--saida", tmp, "--max-teste", "55", "--estrito"])
             self.assertEqual(codigo, 1)
@@ -57,11 +57,13 @@ class TestEndToEndOffline(unittest.TestCase):
 
 class _ClienteSempreStatus:
     def __init__(self):
-        self.messages = self
+        self.chat = SimpleNamespace(completions=self)
 
     def create(self, **kw):
-        return SimpleNamespace(content=[SimpleNamespace(type="text", text="status_pedido")],
-                               usage=SimpleNamespace(input_tokens=200, output_tokens=4))
+        return SimpleNamespace(
+            choices=[SimpleNamespace(message=SimpleNamespace(content="status_pedido"))],
+            usage=SimpleNamespace(prompt_tokens=200, completion_tokens=4),
+        )
 
 
 class TestCaminhoLLMComClienteFalso(unittest.TestCase):
