@@ -18,15 +18,15 @@ por um caro e lento — e a que preço de latência e dinheiro?**
 
 ## Resultados
 
-Números gerados por `python -m benchmark_intencao`; relatório detalhado e matrizes de confusão em
-[`resultados/relatorio.md`](resultados/relatorio.md).
+Números gerados por `python -m benchmark_intencao --max-teste 110 --preco-entrada 0.075 --preco-saida 0.30`;
+relatório detalhado e matrizes de confusão em [`resultados/relatorio.md`](resultados/relatorio.md).
 
 | Modelo | Acurácia (IC 95%) | F1-macro | Latência p50 (ms) | Custo / 1k pred. (USD) |
 |---|---|---|---|---|
-| TF-IDF + Regressão Logística | 0.595 (0.46–0.72) | 0.588 | 0.52 | 0 (local) |
-| LSA (TF-IDF + SVD) + Regressão Logística | 0.407 (0.29–0.53) | 0.384 | 1.10 | 0 (local) |
-| Embeddings + LR | *preencher após rodar* | *-* | *-* | 0 (local) |
-| LLM zero-shot (`llama-3.1-8b-instant`) | *preencher após rodar* | *-* | *-* | *-* |
+| TF-IDF + Regressão Logística | 0.582 (0.443–0.721) | 0.576 | 0.49 | 0 (local) |
+| LSA (TF-IDF + SVD) + Regressão Logística | 0.391 (0.265–0.520) | 0.366 | 1.51 | 0 (local) |
+| Embeddings (`paraphrase-multilingual-MiniLM-L12-v2`) + LR | 0.673 (0.545–0.787) | 0.676 | 34.95 | 0 (local) |
+| LLM zero-shot (`openai/gpt-oss-20b`) | 1.000 (1.000–1.000) | 1.000 | 2394.31 | 0.0404 |
 
 ![Comparação de acurácia e latência entre modelos](resultados/comparacao.png)
 
@@ -77,8 +77,8 @@ python -m benchmark_intencao --max-teste 110
 # Simula o custo em produção (USD por milhão de tokens — confira a tabela de preços da Groq)
 python -m benchmark_intencao --preco-entrada <X> --preco-saida <Y>
 
-# Outro modelo de LLM (ex.: llama-3.3-70b-versatile) / de embeddings
-python -m benchmark_intencao --llm-modelo llama-3.3-70b-versatile --modelo-embeddings paraphrase-multilingual-MiniLM-L12-v2
+# Outro modelo de LLM (ex.: openai/gpt-oss-120b) / de embeddings
+python -m benchmark_intencao --llm-modelo openai/gpt-oss-120b --modelo-embeddings paraphrase-multilingual-MiniLM-L12-v2
 
 # Seus próprios dados
 python -m benchmark_intencao --dados meu_dataset.csv
