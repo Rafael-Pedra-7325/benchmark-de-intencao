@@ -20,6 +20,7 @@ dependencies = [
 [project.optional-dependencies]
 embeddings = ["sentence-transformers>=2.7"]
 llm = ["groq>=0.11"]
+web = ["fastapi>=0.110", "uvicorn>=0.29"]
 todos = ["sentence-transformers>=2.7", "groq>=0.11"]
 dev = ["pytest>=7"]
 
