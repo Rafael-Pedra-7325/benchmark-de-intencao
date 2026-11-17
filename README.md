@@ -78,7 +78,7 @@ python -m benchmark_intencao --max-teste 110
 python -m benchmark_intencao --preco-entrada <X> --preco-saida <Y>
 
 # Outro modelo de LLM / de embeddings
-python -m benchmark_intencao --llm-modelo claude-haiku-5-5 --modelo-embeddings paraphrase-multilingual-MiniLM-L12-v2
+python -m benchmark_intencao --llm-modelo claude-haiku-4-5 --modelo-embeddings paraphrase-multilingual-MiniLM-L12-v2
 
 # Seus próprios dados
 python -m benchmark_intencao --dados meu_dataset.csv
