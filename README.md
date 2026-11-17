@@ -40,7 +40,7 @@ relatório detalhado e matrizes de confusão em [`resultados/relatorio.md`](resu
 ### 1. Local (Python 3.9+)
 
 ```bash
-git clone [https://github.com/Rafael-Pedra-7325/benchmark-de-intencao.git](https://github.com/Rafael-Pedra-7325/benchmark-de-intencao.git)
+git clone https://github.com/Rafael-Pedra-7325/benchmark-de-intencao.git
 cd benchmark-de-intencao
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -e ".[todos]"                               # núcleo + embeddings + LLM
