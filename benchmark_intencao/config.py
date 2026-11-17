@@ -11,7 +11,7 @@ SEMENTE = 42
 MODELO_EMBEDDINGS = "paraphrase-multilingual-MiniLM-L12-v2"
 
 # Modelo de LLM usado no zero-shot. Pode ser trocado com --llm-modelo ou LLM_MODELO.
-MODELO_LLM = "claude-haiku-5-5"
+MODELO_LLM = "claude-haiku-4-5"
 
 # Chaves aceitas em --modelos, na ordem em que aparecem no relatório.
 MODELOS_DISPONIVEIS = ("tfidf", "lsa", "embeddings", "llm")
