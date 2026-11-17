@@ -19,8 +19,8 @@ dependencies = [
 
 [project.optional-dependencies]
 embeddings = ["sentence-transformers>=2.7"]
-llm = ["anthropic>=0.40"]
-todos = ["sentence-transformers>=2.7", "anthropic>=0.40"]
+llm = ["groq>=0.11"]
+todos = ["sentence-transformers>=2.7", "groq>=0.11"]
 dev = ["pytest>=7"]
 
 [tool.setuptools.packages.find]
