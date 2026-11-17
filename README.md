@@ -18,18 +18,17 @@ por um caro e lento — e a que preço de latência e dinheiro?**
 
 ## Resultados
 
-Rodada offline (o que roda sem baixar modelo e sem chave de API). Números gerados por
-`python -m benchmark_intencao --modelos tfidf lsa`; relatório completo em [`resultados/relatorio.md`](resultados/relatorio.md).
+Números gerados por `python -m benchmark_intencao`; relatório detalhado e matrizes de confusão em
+[`resultados/relatorio.md`](resultados/relatorio.md).
 
 | Modelo | Acurácia (IC 95%) | F1-macro | Latência p50 (ms) | Custo / 1k pred. (USD) |
 |---|---|---|---|---|
 | TF-IDF + Regressão Logística | 0.595 (0.46–0.72) | 0.588 | 0.52 | 0 (local) |
 | LSA (TF-IDF + SVD) + Regressão Logística | 0.407 (0.29–0.53) | 0.384 | 1.10 | 0 (local) |
-| Embeddings + LR | *rode localmente* | | | |
-| LLM zero-shot | *rode localmente (requer `ANTHROPIC_API_KEY`)* | | | |
+| Embeddings + LR | *preencher após rodar* | *-* | *-* | 0 (local) |
+| LLM zero-shot (`claude-haiku-4-5`) | *preencher após rodar* | *-* | *-* | *-* |
 
-Os dois últimos não estão preenchidos porque dependem de baixar um modelo e de uma chave de API —
-rode o comando completo (abaixo) e **commite a pasta `resultados/`** para que esta tabela reflita os quatro.
+![Comparação de acurácia e latência entre modelos](resultados/comparacao.png)
 
 > **Como ler:** a acurácia baixa dos modelos clássicos é esperada neste setup. O treino tem poucas
 > frases-base por intenção (9) e o teste só usa frases-base **nunca vistas**; é um teste de
@@ -41,7 +40,7 @@ rode o comando completo (abaixo) e **commite a pasta `resultados/`** para que es
 ### 1. Local (Python 3.9+)
 
 ```bash
-git clone https://github.com/Rafael-Pedra-7325/benchmark-de-intencao.git
+git clone [https://github.com/Rafael-Pedra-7325/benchmark-de-intencao.git](https://github.com/Rafael-Pedra-7325/benchmark-de-intencao.git)
 cd benchmark-de-intencao
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -e ".[todos]"                               # núcleo + embeddings + LLM
