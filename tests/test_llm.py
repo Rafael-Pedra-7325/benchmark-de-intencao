@@ -7,13 +7,13 @@ ROTULOS = ["cancelar_pedido", "reembolso", "status_pedido"]
 
 
 class ClienteFalso:
-    """Imita anthropic.Anthropic().messages.create sem rede."""
+    """Imita groq.Groq().chat.completions.create sem rede."""
 
     def __init__(self, respostas, falhas_iniciais=0):
         self.respostas = list(respostas)
         self.falhas = falhas_iniciais
         self.chamadas = []
-        self.messages = self
+        self.chat = SimpleNamespace(completions=self)
 
     def create(self, **kw):
         self.chamadas.append(kw)
@@ -21,8 +21,10 @@ class ClienteFalso:
             self.falhas -= 1
             raise ConnectionError("rede")
         texto = self.respostas.pop(0)
-        return SimpleNamespace(content=[SimpleNamespace(type="text", text=texto)],
-                               usage=SimpleNamespace(input_tokens=120, output_tokens=5))
+        return SimpleNamespace(
+            choices=[SimpleNamespace(message=SimpleNamespace(content=texto))],
+            usage=SimpleNamespace(prompt_tokens=120, completion_tokens=5),
+        )
 
 
 class TestExtracao(unittest.TestCase):
