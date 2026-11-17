@@ -1,0 +1,881 @@
+modelo,texto,grupo,real,previsto,latencia_ms
+tfidf,onde está meu pedido agora,status_pedido-00,status_pedido,status_pedido,0.568739000016194
+tfidf,"Por favor, onde está meu pedido aogra alguém aí?",status_pedido-00,status_pedido,status_pedido,0.719886000013048
+tfidf,"OLÁ, TUDO BEM? ONDE TÁ MEU PED AGORA PRECISO DE AJUDA",status_pedido-00,status_pedido,status_pedido,0.6326240000191774
+tfidf,bom dia onde ta meu pedido agora por favor,status_pedido-00,status_pedido,status_pedido,0.5510109999988799
+tfidf,E aí onde tá meu ped agora (pedido 6695),status_pedido-00,status_pedido,status_pedido,0.5377180000039061
+tfidf,"Ola, tudo bem? onde esta meu pedido agora de hoje",status_pedido-00,status_pedido,status_pedido,0.5202389999965362
+tfidf,bom dia onde tá meu ped agoora de hoje,status_pedido-00,status_pedido,status_pedido,0.4885799999954088
+tfidf,"por favor, onde está meu peiddo agora do Sushi Yama alguém aí?",status_pedido-00,status_pedido,falar_com_humano,0.6157520000158456
+tfidf,boa noite onde esta meu pedido agora #5207 por favor,status_pedido-00,status_pedido,status_pedido,0.5340669999895908
+tfidf,Boa noite onde está meu pedido agora #86909 preciso de ajuda,status_pedido-00,status_pedido,status_pedido,0.5914599999812253
+tfidf,"cadê meu pedido, não aparece nada no app",status_pedido-08,status_pedido,status_pedido,0.5476409999971565
+tfidf,"cade meu pedido, n aparece nada no app do Sushi Yama",status_pedido-08,status_pedido,status_pedido,0.51781199999823
+tfidf,"Ei cade meu pedido, n aparece nada no app por favor",status_pedido-08,status_pedido,cancelar_pedido,0.5129479999936848
+tfidf,"oi pessoal cade meu pedido, nao aparece nada no app #69494 :(",status_pedido-08,status_pedido,cancelar_pedido,0.5423110000037923
+tfidf,"Cade meu pedido, nao apaarece nada no app #35687",status_pedido-08,status_pedido,status_pedido,0.5341499999929056
+tfidf,"ola cade meu pedido, nao aparece nada no app (pedido 5278) alguem ai?",status_pedido-08,status_pedido,status_pedido,0.5159650000052807
+tfidf,"e aí cadê meu pedido, n aparece nada no app #56723",status_pedido-08,status_pedido,status_pedido,0.5430129999979272
+tfidf,"OI PESSOAL CADÊ MEU PEDIDO, NÃO APARRECE NADA NO APP (PEDIDO 58560) ALGUÉM AÍ?",status_pedido-08,status_pedido,status_pedido,0.5663009999921087
+tfidf,"Ei cade meu pedido, nao aparece nada no app por favor",status_pedido-08,status_pedido,cancelar_pedido,0.5706729999985782
+tfidf,"Ei cadê meu pedido, não aparece nada no app",status_pedido-08,status_pedido,cancelar_pedido,0.5017260000101942
+tfidf,pode me dizer em que etapa está meu pedido,status_pedido-11,status_pedido,status_pedido,0.5426179999972192
+tfidf,Oi pessoal pode me dizer em que etapa esta meu pedido no app por favor,status_pedido-11,status_pedido,status_pedido,0.5425730000183648
+tfidf,olá pode me dizer em que etapa tá meu pedido (pedido 3875),status_pedido-11,status_pedido,status_pedido,0.5473110000195902
+tfidf,Oi pode me dizer em que etapa esta meu pedio #80569 preciso de ajuda,status_pedido-11,status_pedido,status_pedido,0.6218810000007124
+tfidf,"por favor, pode me dizer em que etapa esta meu pedido preciso de ajuda",status_pedido-11,status_pedido,status_pedido,0.5446209999888652
+tfidf,pode me dizer em que etapa esta meu ped de hoje,status_pedido-11,status_pedido,status_pedido,0.5333929999835618
+tfidf,Oi pessoal pode me dizer em que etapa está meu pedido (pedido 22567) por favor,status_pedido-11,status_pedido,status_pedido,0.5409849999864491
+tfidf,pode me dizer em que etapa esta meu ped no app obrigado,status_pedido-11,status_pedido,status_pedido,0.570482999989963
+tfidf,oi pessoal pode me dizer em que etapa está meu pedido de hoje,status_pedido-11,status_pedido,status_pedido,0.5543800000111787
+tfidf,"Por favor, pode me dizer em que etapa esta meu pedido do Sushi Yama obrigado",status_pedido-11,status_pedido,status_pedido,0.5855630000155543
+tfidf,o mapa do entregador não atualiza,status_pedido-12,status_pedido,problema_conta,0.5890019999981178
+tfidf,Boa noite o mapa do entegador não atualiza do Cantina da Vó?,status_pedido-12,status_pedido,problema_conta,0.5623149999962607
+tfidf,"OLA, TUDO BEM? O MAPA DO ENTREGADOR N ATUALIZA NO APP URGENTE",status_pedido-12,status_pedido,problema_conta,0.5927839999912976
+tfidf,o mapa do entregador nao atualiza de hoje obrigado,status_pedido-12,status_pedido,problema_conta,0.5222300000014002
+tfidf,"Por favor, o mapa do entregador não atualiza preciso de ajuda",status_pedido-12,status_pedido,problema_conta,0.5450819999737178
+tfidf,O mapa do entregador nao atualiza!!,status_pedido-12,status_pedido,problema_conta,0.48475999997776853
+tfidf,olá o mapa do entregador não atualiza,status_pedido-12,status_pedido,problema_conta,0.5591999999978725
+tfidf,Bom dia o mapa do entergador nao atualiza de hoje,status_pedido-12,status_pedido,problema_conta,0.536702000005107
+tfidf,bom dia o mapa do entregador não atualiza!!,status_pedido-12,status_pedido,problema_conta,0.5742270000155258
+tfidf,O MAPA DO ENTREGADOR NÃO ATUALIZA (PEDIDO 61036) :(,status_pedido-12,status_pedido,problema_conta,0.5537140000058116
+tfidf,meu pedido está muito atrasado,atraso_entrega-00,atraso_entrega,atraso_entrega,0.556356999993568
+tfidf,meu pedido esta muito atrasado de hoje,atraso_entrega-00,atraso_entrega,status_pedido,0.5352129999778299
+tfidf,ei meu pedido esta muito atrasado (pedido 60469) obrigado,atraso_entrega-00,atraso_entrega,status_pedido,0.5275659999881555
+tfidf,oi meu pedido está muito atrasado #57370 obrigado,atraso_entrega-00,atraso_entrega,status_pedido,0.6038209999985611
+tfidf,Meu ped está muito atrasado de hoje,atraso_entrega-00,atraso_entrega,atraso_entrega,0.522020000005341
+tfidf,boa noite meu pedido está muito atrasado de hoje urgente,atraso_entrega-00,atraso_entrega,status_pedido,0.5957420000015645
+tfidf,ei meu pedido ta muito atrasado (pedido 47090)!!,atraso_entrega-00,atraso_entrega,status_pedido,0.5563320000021577
+tfidf,boa noite meu ped está muito atrasado (pedido 76248)!!,atraso_entrega-00,atraso_entrega,status_pedido,0.5472859999997581
+tfidf,meu pedido esta muito atrasado,atraso_entrega-00,atraso_entrega,atraso_entrega,0.4727639999941857
+tfidf,"por favor, meu pedido esta muito atrasado obrigado",atraso_entrega-00,atraso_entrega,status_pedido,0.506754000014098
+tfidf,já passou do horário previsto e nada de chegar,atraso_entrega-01,atraso_entrega,status_pedido,0.5470709999997325
+tfidf,bom dia já passou do horáio previsto e nada de chegar do Pizzaria Bella por favor,atraso_entrega-01,atraso_entrega,status_pedido,0.5666630000007444
+tfidf,olá já passou do horário previsto e nada de chegar :(,atraso_entrega-01,atraso_entrega,status_pedido,0.6153559999972913
+tfidf,já passou do horário previsto e nada de chegar por favor,atraso_entrega-01,atraso_entrega,status_pedido,0.535872999989806
+tfidf,ja passou do horario previsto e nada de chegar #52807,atraso_entrega-01,atraso_entrega,status_pedido,0.5252539999958117
+tfidf,Já passou do horário previsto e nada de chegar (pedido 44007) :(,atraso_entrega-01,atraso_entrega,status_pedido,0.6833239999934904
+tfidf,"olá, tudo bem? já passou do horário previsto e nada de chegar de hoje",atraso_entrega-01,atraso_entrega,status_pedido,0.6312760000071194
+tfidf,"Olá, tudo bem? já passou do horário previsto e nada de chegar no app preciso de ajuda",atraso_entrega-01,atraso_entrega,status_pedido,0.6221690000245417
+tfidf,Já passou do horário previsto e nada de chegar do Sushi Yama obrigado,atraso_entrega-01,atraso_entrega,status_pedido,0.52723800001786
+tfidf,Oi já passou do horário previsto e nada de chegar no app urgente,atraso_entrega-01,atraso_entrega,status_pedido,0.5838460000120449
+tfidf,estou esperando faz mais de uma hora,atraso_entrega-02,atraso_entrega,atraso_entrega,0.5117599999948652
+tfidf,"Olá, tudo bem? estou esperando faz mais de uma hora #46793 preciso de ajuda",atraso_entrega-02,atraso_entrega,atraso_entrega,0.5759679999925993
+tfidf,OI PESSOAL TÔ ESPERANDO FAZ MAIS DE UMA HORA?,atraso_entrega-02,atraso_entrega,atraso_entrega,0.5345309999995607
+tfidf,ESTOU ESPERANDO FAZ MAIS DE UMA HORA DE HOJE :(,atraso_entrega-02,atraso_entrega,atraso_entrega,0.5219200000112778
+tfidf,bom dia to esprando faz mais de uma hora do Burger Ponto por favor,atraso_entrega-02,atraso_entrega,atraso_entrega,0.5078169999990223
+tfidf,E AÍ ESTOU ESPERANDO FAZ MAIS DE UMA HORA NO APP ALGUÉM AÍ?,atraso_entrega-02,atraso_entrega,atraso_entrega,0.5624289999843768
+tfidf,e aí estou esperando faz mais de uma hora de hoje,atraso_entrega-02,atraso_entrega,atraso_entrega,0.5596309999873483
+tfidf,boa noite estou esperando faz mais de uma hora de hoje obrigado,atraso_entrega-02,atraso_entrega,atraso_entrega,0.4983470000183843
+tfidf,"por favor, estou esperando faz mais de uma hora de hoje obrigado",atraso_entrega-02,atraso_entrega,atraso_entrega,0.5330179999987195
+tfidf,Ei estou esperando faz mais de uma hora preciso de ajuda,atraso_entrega-02,atraso_entrega,atraso_entrega,0.5114910000258988
+tfidf,passou uma hora e meia e ninguém entregou nada,atraso_entrega-07,atraso_entrega,atraso_entrega,0.519005000001016
+tfidf,ei passou uma hora e meia e ninguem entregou nada?,atraso_entrega-07,atraso_entrega,atraso_entrega,0.46502899999723013
+tfidf,Passou uma hora e meia e ninguém entregou nada preciso de ajuda,atraso_entrega-07,atraso_entrega,atraso_entrega,0.5760889999919527
+tfidf,olá passou uma hora e meia e ninguém entregou nada preciso de ajuda,atraso_entrega-07,atraso_entrega,atraso_entrega,0.5431890000124895
+tfidf,"OLA, TUDO BEM? PASSOU UMA HORA E MEIA E NINGUEM ENTREGOU NADA (PEDIDO 60446)",atraso_entrega-07,atraso_entrega,atraso_entrega,0.6324360000178331
+tfidf,"Olá, tudo bem? passou uma hora e meia e ninguém entregou nada urgente",atraso_entrega-07,atraso_entrega,atraso_entrega,0.7502280000153405
+tfidf,Passou uma hora e meia e ninguém entregou nada de hoje por favor,atraso_entrega-07,atraso_entrega,atraso_entrega,0.5834359999994376
+tfidf,Bom dia passou uma hora e meia e ninguém entregou nada no app?,atraso_entrega-07,atraso_entrega,atraso_entrega,0.5590739999945527
+tfidf,Oi pessoal passou uma hora e meia e ninguem entregou nada do Sushi Yama,atraso_entrega-07,atraso_entrega,atraso_entrega,0.5236959999876944
+tfidf,olá passou uma hora e meia e ninguém entregou nada de hoje :(,atraso_entrega-07,atraso_entrega,atraso_entrega,0.666787000000113
+tfidf,"desisti da compra, pode cancelar",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,0.5603049999933774
+tfidf,"Por favor, desisti da compra, pode cancelar no app?",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,0.5691120000221872
+tfidf,"desisti da compra, pode cancelar obrigado",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,0.566990000010037
+tfidf,"Olá desisti da compra, pode cancelar :(",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,0.5069000000048618
+tfidf,"desisti da compra, pode cancellar no app urgente",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,0.5134769999983746
+tfidf,"boa noite desisti da compra, pode cancelar",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,0.4956110000193803
+tfidf,"Desisti da compra, pode cancelar",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,0.5095710000091458
+tfidf,"olá desisti da compra, pode canclar do Sushi Yama",cancelar_pedido-02,cancelar_pedido,cupom_promocao,0.4993100000092454
+tfidf,"Boa noite desisti da compra, pode cancelar urgente",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,0.555397999988827
+tfidf,"desisti da compra, pode cancelar no app por favor",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,0.5078380000043126
+tfidf,não quero mais o pedido,cancelar_pedido-05,cancelar_pedido,atraso_entrega,0.4908629999818004
+tfidf,boa noite n querro mais o ped do Açaí do Zé alguém aí?,cancelar_pedido-05,cancelar_pedido,alterar_pedido,0.49475099999085614
+tfidf,ei n quero mais o ped (pedido 23047) alguém aí?,cancelar_pedido-05,cancelar_pedido,atraso_entrega,0.6546790000072633
+tfidf,E AÍ NÃO QUERO MAIS O PEDIDO (PEDIDO 72186),cancelar_pedido-05,cancelar_pedido,atraso_entrega,0.5431050000197502
+tfidf,bom dia não quero mais o pedido,cancelar_pedido-05,cancelar_pedido,atraso_entrega,0.517242000000806
+tfidf,"Por favor, nao quero mais o pedido de hoje obrigado",cancelar_pedido-05,cancelar_pedido,atraso_entrega,0.5554399999994075
+tfidf,ola n qro mais o pedido?,cancelar_pedido-05,cancelar_pedido,status_pedido,0.5104810000204907
+tfidf,Não quero mais o pedido por favor,cancelar_pedido-05,cancelar_pedido,atraso_entrega,0.4874260000065078
+tfidf,Oi pessoal não quero mais o pedido de hoje,cancelar_pedido-05,cancelar_pedido,atraso_entrega,0.5206019999945966
+tfidf,nao quero mais o peddo do Cantina da Vo alguem ai?,cancelar_pedido-05,cancelar_pedido,atraso_entrega,0.5471340000156033
+tfidf,preciso cancelar a entrega de hoje,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,0.49419499998748506
+tfidf,Preciso cancelar a entrega de hoje de hoje,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,0.50629400001867
+tfidf,"por favor, preciso cancelar a entrega de hoje (pedido 91502) por favor",cancelar_pedido-07,cancelar_pedido,cancelar_pedido,0.49858899998866946
+tfidf,boa noite preciso cancelar a entrega de hoje,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,0.5734309999922971
+tfidf,preciso cancelar a entrega de hoje obrigado,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,0.5114469999796256
+tfidf,Ei preciso cancelar a entrega de hoje do Burger Ponto,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,0.5240659999969921
+tfidf,"POR FAVOR, PRECISO CANCELAR A ENTREGA DE HOJE NO APP ALGUÉM AÍ?",cancelar_pedido-07,cancelar_pedido,cancelar_pedido,0.5123100000048453
+tfidf,Olá preciso cancelar a entregga de hoje,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,0.549471999988782
+tfidf,olá preciso cancelar a entrega de hoje no app alguém aí?,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,0.5138470000076722
+tfidf,ei preciso cancelar a entrega de hoje no app?,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,0.5052890000172283
+tfidf,"cancelem o pedido, já resolvi de outro jeito",cancelar_pedido-12,cancelar_pedido,cancelar_pedido,0.5040289999840297
+tfidf,"Cancelem o pedido, ja resolvi de outro jeito #22319",cancelar_pedido-12,cancelar_pedido,cancelar_pedido,0.5789260000028662
+tfidf,"bom dia cancelem o pedido, já resovli de outro jeito?",cancelar_pedido-12,cancelar_pedido,cancelar_pedido,0.5000959999961196
+tfidf,"Cancelem o pedido, ja resolvi de outro jeito",cancelar_pedido-12,cancelar_pedido,cancelar_pedido,0.493328000004567
+tfidf,"Ola cancelem o pedido, ja resolvi de outro jeito (pedido 87585)",cancelar_pedido-12,cancelar_pedido,cancelar_pedido,0.5429659999833802
+tfidf,"boa noite cancelem o pedido, ja resolvi de outro jeito",cancelar_pedido-12,cancelar_pedido,item_faltando_ou_errado,0.534854999983736
+tfidf,"cacnelem o pedido, já resolvi de outro jeito (pedido 11739) por favor",cancelar_pedido-12,cancelar_pedido,item_faltando_ou_errado,0.5454690000021856
+tfidf,"Boa noite cancelem o pedido, ja resolvi de outro jeito no app urgente",cancelar_pedido-12,cancelar_pedido,item_faltando_ou_errado,0.5884449999769004
+tfidf,"Cancelem o pedido, já resolvi de outro jeito (pedido 74956) alguém aí?",cancelar_pedido-12,cancelar_pedido,item_faltando_ou_errado,0.6097140000065338
+tfidf,"boa noite cancelem o pedido, já resolvi de outro jeito #73561!!",cancelar_pedido-12,cancelar_pedido,item_faltando_ou_errado,0.5215770000006614
+tfidf,pedi sem cebola e veio com cebola,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,0.4952900000034788
+tfidf,Oi pessoal pedi sem cebola e veio com cebola (pedido 40121),item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,0.5508170000041446
+tfidf,e aí pedi sem cebola e veio com cebola (pedido 25688),item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,0.5391380000219215
+tfidf,"olá, tudo bem? pedi sem cebola e veio com cebola de hoje",item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,0.5030580000209284
+tfidf,ei pedi sem cebola e veio com cebola no app alguém aí?,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,0.5905980000022737
+tfidf,e aí pedi sem cebola e veio com cebola do Sushi Yama por favor,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,0.5667929999901844
+tfidf,pedi sem ceboal e veio com cebola (pedido 96051) preciso de ajuda,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,0.5936109999993278
+tfidf,bom dia pedi sem cebola e veio com cebola (pedido 56112) por favor,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,0.5377629999827604
+tfidf,e aí pedi sem ceboal e veio com cebola por favor,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,0.5021229999897514
+tfidf,oi pessoal pedi sem cebola e veio com cebola de hoje,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,0.533246999992798
+tfidf,chegou faltando metade das coisas,item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,0.486781000006431
+tfidf,"Olá, tudo bem? chegou faltando metade das coisas de hoje?",item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,0.535794000001033
+tfidf,oi pessoal chegou faltando metade das coisas urgente,item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,0.5348839999896882
+tfidf,e aí chegou faltando metade das coisas :(,item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,0.5729970000061257
+tfidf,chegou faltando metade das coisas #44371!!,item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,0.5057809999868823
+tfidf,OI PESSOAL CHEGOU FALTANDO METADE DAS COISAS DO CANTINA DA VÓ,item_faltando_ou_errado-05,item_faltando_ou_errado,item_faltando_ou_errado,0.8816680000052202
+tfidf,Boa noite chegou faltando metade das coisas,item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,0.6534589999773743
+tfidf,oi chegou faltando metade das coisas (pedido 67628) preciso de ajuda,item_faltando_ou_errado-05,item_faltando_ou_errado,item_faltando_ou_errado,0.551301999990983
+tfidf,"ola, tudo bem? chegou faltndo metade das coisas do Sushi Yama :(",item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,0.5589200000031269
+tfidf,bom dia chegou faltando metade das coisas (pedido 72786) alguem ai?,item_faltando_ou_errado-05,item_faltando_ou_errado,item_faltando_ou_errado,0.6027679999931479
+tfidf,o refrigerante veio de sabor diferente do que escolhi,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,0.5716750000033244
+tfidf,ei o refrigerante veio de sabor diferente do que escolhi no app,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,0.5367990000024747
+tfidf,o refrigerante veio de sabor diferente do que escolhi #94950 obrigado,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,0.50276800001825
+tfidf,e ai o refrigerante veio de sabor diferente do que escollhi alguem ai?,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,0.5766019999953187
+tfidf,O refrigerante veio de sabor diferente do que escolhi alguém aí?,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,0.5392260000007809
+tfidf,boa noite o refrigerante veio de sabor diferente do que escolhi de hoje?,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,0.5919289999951616
+tfidf,o refrigerante veio de sabor diferente do que escolhi (pedido 60355) obrigado,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,0.5313850000163711
+tfidf,"por favor, o refrigerante veio de sabor diferente do que escolhi de hoje",item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,0.5694140000116477
+tfidf,E aí o refrigerante veio de sabor diferente do que escolhi!!,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,0.5003330000192818
+tfidf,"por favor, o refrigerante veio de sabor diferente do que escolhi do Cantina da Vó alguém aí?",item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,0.6205819999820505
+tfidf,esqueceram o molho e os talheres,item_faltando_ou_errado-08,item_faltando_ou_errado,reembolso,0.5174869999962084
+tfidf,Oi esqueceram o molho e os talheres preciso de ajuda,item_faltando_ou_errado-08,item_faltando_ou_errado,reembolso,0.5027959999779341
+tfidf,Esqueceram o molho e os talheres do Burger Ponto preciso de ajuda,item_faltando_ou_errado-08,item_faltando_ou_errado,reembolso,0.5646290000242971
+tfidf,boa noite esqueceram o molho e os talheres #6226,item_faltando_ou_errado-08,item_faltando_ou_errado,reembolso,0.5044789999999466
+tfidf,oi pessoal esqueceram o molho e os talheres de hoje :(,item_faltando_ou_errado-08,item_faltando_ou_errado,item_faltando_ou_errado,0.5565399999909459
+tfidf,E aí esqueceram o molho e os talheres,item_faltando_ou_errado-08,item_faltando_ou_errado,reembolso,0.46756000000414133
+tfidf,e aí esqueceram o molho e os talheres no app alguém aí?,item_faltando_ou_errado-08,item_faltando_ou_errado,reembolso,0.5674650000173642
+tfidf,Esqueceram o molho e os talheres :(,item_faltando_ou_errado-08,item_faltando_ou_errado,reembolso,0.4730400000028112
+tfidf,BOA NOITE ESQUECERAM O MOLOH E OS TALHERES #34901 :(,item_faltando_ou_errado-08,item_faltando_ou_errado,reembolso,0.5226700000093842
+tfidf,esqueceram o molho e os talheres alguém aí?,item_faltando_ou_errado-08,item_faltando_ou_errado,reembolso,0.4694120000010571
+tfidf,quero meu dinheiro de volta,reembolso-00,reembolso,reembolso,0.5077069999970263
+tfidf,Ei quero meu dinheiro de volta (pedido 26525)!!,reembolso-00,reembolso,reembolso,0.5045130000098652
+tfidf,Olá qro meu dinheiro de volta obrigado,reembolso-00,reembolso,reembolso,0.5482420000078037
+tfidf,olá quero meu dinheiro de volta alguém aí?,reembolso-00,reembolso,reembolso,0.477399999994077
+tfidf,EI QUERO MEU DINHEIRO DE VOLTA #60606,reembolso-00,reembolso,reembolso,0.511485000004086
+tfidf,E AI QRO MEU DINHEIRO DE VOLTA?,reembolso-00,reembolso,reembolso,0.4879089999860753
+tfidf,Ei quero meu dinheiro de volta de hoje,reembolso-00,reembolso,reembolso,0.5099749999999403
+tfidf,bom dia quero meu dinheiro de volta #42383!!,reembolso-00,reembolso,reembolso,0.49988999998618056
+tfidf,Qro meu dinheiro de volta de hoje :(,reembolso-00,reembolso,reembolso,0.5201049999925544
+tfidf,Oi quero meu dinheiro de volat do Pizzaria Bella alguem ai?,reembolso-00,reembolso,reembolso,0.49341799999069735
+tfidf,me devolvam o dinheiro desse pedido,reembolso-06,reembolso,reembolso,0.5740160000016203
+tfidf,e ai me devolvam o dinheiro desse ped obrigado,reembolso-06,reembolso,reembolso,0.4938929999980246
+tfidf,"Olá, tudo bem? me devolvam o dinheiro desse peedido de hoje preciso de ajuda",reembolso-06,reembolso,reembolso,0.5630979999864394
+tfidf,E aí me devolvam o dinheiro desse pedido de hoje?,reembolso-06,reembolso,reembolso,0.4842939999889495
+tfidf,"olá, tudo bem? me devolvam o dinheiro desse pedido de hoje urgente",reembolso-06,reembolso,reembolso,0.5859409999970921
+tfidf,Oi pessoal me devolvam o dinheiro desse pedido (pedido 48187) obrigado,reembolso-06,reembolso,reembolso,0.5374680000045373
+tfidf,me devolvam o dnheiro desse ped #29157 alguém aí?,reembolso-06,reembolso,reembolso,0.5146729999978561
+tfidf,Oi pessoal me devolvam o dinheiro desse pedido urgente,reembolso-06,reembolso,reembolso,0.5837980000080734
+tfidf,Ei me devolvam o dinheiro desse pedido (pedido 40361) obrigado,reembolso-06,reembolso,reembolso,0.5265210000118259
+tfidf,Me devolvam o dinheiro desse pedido do Cantina da Vó?,reembolso-06,reembolso,reembolso,0.5328750000046512
+tfidf,"quero o ressarcimento total, paguei e não consegui usar",reembolso-09,reembolso,reembolso,0.5276200000139397
+tfidf,"Ei quero o ressarcimento total, paguei e não consegui usar!!",reembolso-09,reembolso,reembolso,0.533345000008012
+tfidf,"quero o ressarcimento total, paguei e nao consegui usar no app urgente",reembolso-09,reembolso,reembolso,0.48891099999082144
+tfidf,"oi pessoal quero o rssarcimento total, paguei e não consegui usar no app alguém aí?",reembolso-09,reembolso,reembolso,0.5692410000222026
+tfidf,"quero o ressarcimento total, paguei e não consegui usar #14994",reembolso-09,reembolso,reembolso,0.52560500000709
+tfidf,"ola, tudo bem? quero o ressarcimento total, paguei e n consegui usar :(",reembolso-09,reembolso,reembolso,0.5787680000253204
+tfidf,"oi quero o ressarcimento total, paguei e n consegui usar do Pizzaria Bella",reembolso-09,reembolso,reembolso,0.5272800000000188
+tfidf,"qro o ressarcimento total, paguei e não consegui usar #27812 :(",reembolso-09,reembolso,reembolso,0.5698850000044331
+tfidf,"olá, tudo bem? quero o ressarcimento total, paguei e n consegui usar urgente",reembolso-09,reembolso,reembolso,0.5334440000126506
+tfidf,"Oi pessoal quero o ressarcimento total, paguei e não consegui usar :(",reembolso-09,reembolso,reembolso,0.5317970000078276
+tfidf,"o reembolso foi negado, por quê",reembolso-11,reembolso,reembolso,0.538538000000699
+tfidf,"Oi o reeembolso foi negado, por que (pedido 82233)",reembolso-11,reembolso,reembolso,0.5155400000091959
+tfidf,"O reembollso foi negado, por quê (pedido 44399)",reembolso-11,reembolso,reembolso,0.5768960000125389
+tfidf,"Bom dia o reembolso foi negado, por que",reembolso-11,reembolso,reembolso,0.49289399998997396
+tfidf,"O reembolso foi negado, por quê por favor",reembolso-11,reembolso,reembolso,0.5516869999837581
+tfidf,"Olá, tudo bem? o reembolso foi negado, por quê no app",reembolso-11,reembolso,reembolso,0.48803300001054595
+tfidf,"olá, tudo bem? o reembolso foi negado, por quê por favor",reembolso-11,reembolso,reembolso,0.5629469999917092
+tfidf,"ei o reembolso foi negado, por quê de hoje :(",reembolso-11,reembolso,reembolso,0.48490599999695405
+tfidf,"O reemboso foi negado, por quê #1207 :(",reembolso-11,reembolso,reembolso,0.5011430000081418
+tfidf,"bom dia o reembolso foi negado, por quê no app urgente",reembolso-11,reembolso,reembolso,0.4724750000093536
+tfidf,meu cartão foi recusado,problema_pagamento-00,problema_pagamento,problema_pagamento,0.5525239999997211
+tfidf,Meu cartão foi recusado (pedido 43904)!!,problema_pagamento-00,problema_pagamento,problema_pagamento,0.48630800000637464
+tfidf,meu cartão foi recusado preciso de ajuda,problema_pagamento-00,problema_pagamento,problema_pagamento,0.5023939999944105
+tfidf,meu cartão foi recusado?,problema_pagamento-00,problema_pagamento,problema_pagamento,0.44112300000165305
+tfidf,Bom dia meu cartão foi recusado (pedido 37261) :(,problema_pagamento-00,problema_pagamento,problema_pagamento,0.54234300000644
+tfidf,olá meu carrtão foi recusado de hoje,problema_pagamento-00,problema_pagamento,problema_pagamento,0.4723329999762882
+tfidf,Meu cartão foi recusdo do Pizzaria Bella :(,problema_pagamento-00,problema_pagamento,problema_pagamento,0.5007139999975152
+tfidf,olá meu cartão foi reccusado do Sushi Yama urgente,problema_pagamento-00,problema_pagamento,problema_pagamento,0.4740470000115238
+tfidf,meu cartão foi recusado do Pizzaria Bella alguém aí?,problema_pagamento-00,problema_pagamento,problema_pagamento,0.9578439999984312
+tfidf,oi meu cartão foi recusado do Pizzaria Bella,problema_pagamento-00,problema_pagamento,problema_pagamento,0.5577080000023216
+tfidf,deu erro na hora de pagar,problema_pagamento-03,problema_pagamento,problema_pagamento,0.46450299998923583
+tfidf,oi pessoal deu erro na hora de pagra de hoje :(,problema_pagamento-03,problema_pagamento,problema_pagamento,0.5406100000016067
+tfidf,deu erro na hora de pagar (pedido 38907) alguém aí?,problema_pagamento-03,problema_pagamento,problema_pagamento,0.5316200000038407
+tfidf,ei deu erro na hora de pagar,problema_pagamento-03,problema_pagamento,problema_pagamento,0.503739000009773
+tfidf,ei deu erro na hora de paar,problema_pagamento-03,problema_pagamento,atraso_entrega,0.44881999997414823
+tfidf,oi pessoal deu erro na hora de pagar,problema_pagamento-03,problema_pagamento,problema_pagamento,0.5461720000141668
+tfidf,boa noite deu erro na hora de pagra do Açaí do Zé,problema_pagamento-03,problema_pagamento,problema_pagamento,0.49197800001365977
+tfidf,Deu erro na hora de pagar de hoje,problema_pagamento-03,problema_pagamento,problema_pagamento,0.48201600000652434
+tfidf,oi pessoal deu erro na hora de pagar #50781 por favor,problema_pagamento-03,problema_pagamento,problema_pagamento,0.46372799999971903
+tfidf,E aí deu erro na hora de pagar do Sushi Yama preciso de ajuda,problema_pagamento-03,problema_pagamento,problema_pagamento,0.5560590000186494
+tfidf,o vale refeição não está passando,problema_pagamento-09,problema_pagamento,reembolso,0.48170599998798025
+tfidf,O vale refiecao nao esta passando alguem ai?,problema_pagamento-09,problema_pagamento,falar_com_humano,0.49456800002189993
+tfidf,Boa noite o vale refeição não tá passando :(,problema_pagamento-09,problema_pagamento,reembolso,0.46271100001149534
+tfidf,Bom dia o vale refeição n está passando de hoje preciso de ajuda,problema_pagamento-09,problema_pagamento,falar_com_humano,0.5961119999824405
+tfidf,Ei o vale refeição não está passando do Sushi Yama,problema_pagamento-09,problema_pagamento,reembolso,0.4977499999938573
+tfidf,o vale refeicao nao esta passando de hoje urgente,problema_pagamento-09,problema_pagamento,falar_com_humano,0.5029399999898487
+tfidf,Bom dia o vale refeição não tá passando de hoje :(,problema_pagamento-09,problema_pagamento,reembolso,0.49407899999209803
+tfidf,ei o vale refeicao nao esta passando (pedido 63116) preciso de ajuda,problema_pagamento-09,problema_pagamento,reembolso,0.5316209999932653
+tfidf,O vale refeição não está passando,problema_pagamento-09,problema_pagamento,reembolso,0.45544299999278337
+tfidf,"Por favor, o vale refeição não tá passando de hoje",problema_pagamento-09,problema_pagamento,falar_com_humano,0.5170690000113609
+tfidf,cobraram taxa a mais no meu pagamento,problema_pagamento-12,problema_pagamento,problema_pagamento,0.4602779999913764
+tfidf,Oi pessoal cobraram taxa a mais no meu pagamento obrigado,problema_pagamento-12,problema_pagamento,problema_pagamento,0.500504000001456
+tfidf,ola cobraram taxa a mais no meu pagamento,problema_pagamento-12,problema_pagamento,problema_pagamento,0.4124019999949269
+tfidf,Cobraram taxa a mais no meu pagamento #78018 preciso de ajuda,problema_pagamento-12,problema_pagamento,problema_pagamento,0.45789300000365074
+tfidf,e aí cobraram taxa a mais no meu pagamento de hoje alguém aí?,problema_pagamento-12,problema_pagamento,problema_pagamento,0.48891900001990507
+tfidf,"Olá, tudo bem? cobraram taxa a mais no meu pagamento",problema_pagamento-12,problema_pagamento,problema_pagamento,0.48570700002414924
+tfidf,Cobbraram taxa a mais no meu pagamento do Cantina da Vó :(,problema_pagamento-12,problema_pagamento,problema_pagamento,0.442888000009134
+tfidf,oi cobraram taxa a mais no meu pagamento no app obrigado,problema_pagamento-12,problema_pagamento,problema_pagamento,0.4547769999874163
+tfidf,Cobrram taxa a mais no meu pagamento (pedido 74024) urgente,problema_pagamento-12,problema_pagamento,problema_pagamento,0.5279250000000957
+tfidf,BOA NOITE COBRARAM TAXA A MAIS NO MEU PAGAMENTO DO CANTINA DA VÓ POR FAVOR,problema_pagamento-12,problema_pagamento,problema_pagamento,0.5812310000123944
+tfidf,quero saber das promoções de hoje,cupom_promocao-04,cupom_promocao,cupom_promocao,0.4696530000103394
+tfidf,QUERO SABER DAS PROMOÇÕES DE HOJE NO APP :(,cupom_promocao-04,cupom_promocao,cupom_promocao,0.4927689999760787
+tfidf,e aí quero saber das promoções de hoje,cupom_promocao-04,cupom_promocao,cupom_promocao,0.48445000001606786
+tfidf,quero saber das promoções de hoje do Burger Ponto preciso de ajuda,cupom_promocao-04,cupom_promocao,alterar_pedido,0.534095999995543
+tfidf,quero saaber das promocoes de hoje (pedido 42120),cupom_promocao-04,cupom_promocao,cupom_promocao,0.46581600000195067
+tfidf,bom dia quero saber das promoções de hoje :(,cupom_promocao-04,cupom_promocao,cupom_promocao,0.5493609999973614
+tfidf,boa noite quero saber das promocoes de hoje (pedido 27039) urgente,cupom_promocao-04,cupom_promocao,status_pedido,0.497152999997752
+tfidf,E aí quero saber das promoções de hoje #3717 preciso de ajuda,cupom_promocao-04,cupom_promocao,cupom_promocao,0.5500330000245413
+tfidf,Ei quero saber das promoções de hoje obrigado,cupom_promocao-04,cupom_promocao,cupom_promocao,0.5126570000015818
+tfidf,Quero saber das pormoções de hoje no app,cupom_promocao-04,cupom_promocao,alterar_pedido,0.5132200000161902
+tfidf,a promoção anunciada não foi aplicada no pedido,cupom_promocao-06,cupom_promocao,problema_conta,0.48479899999165355
+tfidf,A promoção anunciada não foi aplicada no pdeido,cupom_promocao-06,cupom_promocao,problema_conta,0.4995870000072955
+tfidf,oi pessoal a promoção anunciada n foi aplicada no pedido do Cantina da Vó :(,cupom_promocao-06,cupom_promocao,cupom_promocao,0.5621820000101252
+tfidf,olá a prmoção anunciada não foi aplicada no pedido?,cupom_promocao-06,cupom_promocao,problema_conta,0.5265399999814235
+tfidf,oi a promoção anunciada não foi aplicada no pedido :(,cupom_promocao-06,cupom_promocao,problema_conta,0.4792910000048778
+tfidf,oi pessoal a promoção anunciada não foi aplicada no ped de hoje urgente,cupom_promocao-06,cupom_promocao,problema_conta,0.5647320000150557
+tfidf,"Por favor, a promoção anunciada não foi aplicada no pedido por favor",cupom_promocao-06,cupom_promocao,problema_conta,0.5123100000048453
+tfidf,A promoção anunciada não foi aplicada no pedido,cupom_promocao-06,cupom_promocao,problema_conta,0.5098740000164526
+tfidf,oi pessoal a promoção anunciada não foi aplicada no pedido obrigado,cupom_promocao-06,cupom_promocao,problema_conta,0.48574499999176624
+tfidf,BOM DIA A PROMOCAO ANUNCIADA NAO FOI APLICADA NO PEDIDO DE HOJE!!,cupom_promocao-06,cupom_promocao,problema_conta,0.505995000025905
+tfidf,tem algum cupom para novos clientes,cupom_promocao-07,cupom_promocao,cupom_promocao,0.4963890000055926
+tfidf,EI TEM ALGUM CUPOM PRA NOVOS CLIENTES,cupom_promocao-07,cupom_promocao,cupom_promocao,0.5011009999975613
+tfidf,oi pessoal tem algum cupom para novos clientes #85883!!,cupom_promocao-07,cupom_promocao,cupom_promocao,0.492828999995254
+tfidf,tem algum cupom para novos clientes do Pizzaria Bella preciso de ajuda,cupom_promocao-07,cupom_promocao,falar_com_humano,0.5937920000178565
+tfidf,TEM ALGUM CUPOM PARA NOVOS CLIENTES!!,cupom_promocao-07,cupom_promocao,cupom_promocao,0.47101999999199506
+tfidf,Ei tem algum cupom para novos clientes (pedido 47590),cupom_promocao-07,cupom_promocao,cupom_promocao,0.5232419999856575
+tfidf,Tem algum cupom para novos clientes obrigado,cupom_promocao-07,cupom_promocao,cupom_promocao,0.462210999984336
+tfidf,Bom dia tem algum cupom para novos clientes do Sushi Yama,cupom_promocao-07,cupom_promocao,cupom_promocao,0.5523869999990438
+tfidf,Tem algum cupom para novos clientes,cupom_promocao-07,cupom_promocao,cupom_promocao,0.47248799998556024
+tfidf,"olá, tudo bem? tem algum cupom para novos clientes no app :(",cupom_promocao-07,cupom_promocao,cupom_promocao,0.5610629999921457
+tfidf,por que o desconto não valeu para esse restaurante,cupom_promocao-10,cupom_promocao,qualidade_comida,0.5751299999872117
+tfidf,Bom dia por que o desconto não valeu para esse restaurante por favor,cupom_promocao-10,cupom_promocao,reembolso,0.5577240000036454
+tfidf,BOA NOITE POR QUE O DESCONTO NAO VALEU PARA ESSE RESTAURANTE,cupom_promocao-10,cupom_promocao,qualidade_comida,0.5637010000043574
+tfidf,por que o desconto não valeu para esse restaurante de hoje,cupom_promocao-10,cupom_promocao,qualidade_comida,0.5195189999938066
+tfidf,Por que o desconto não valeu para esse restaurante no app preciso de ajuda,cupom_promocao-10,cupom_promocao,cancelar_pedido,0.5883789999927558
+tfidf,"Por favor, por que o desconto não valeu para esse restaurante (pedido 55959) alguém aí?",cupom_promocao-10,cupom_promocao,reembolso,0.5539819999853535
+tfidf,EI POR QUE O DESCONTO NÃO VALEU PARA ESSE RESTAURANTE,cupom_promocao-10,cupom_promocao,qualidade_comida,0.5342700000028344
+tfidf,oi por que o desconto nao valeu para esse restaurante de hoje por favor,cupom_promocao-10,cupom_promocao,cancelar_pedido,0.4882300000019768
+tfidf,E aí por que o desconto não valeu para esse restaurante (pedido 29014)!!,cupom_promocao-10,cupom_promocao,reembolso,0.6327689999920949
+tfidf,e aí por que o desconto não valeu para esse restaruante (pedido 96225),cupom_promocao-10,cupom_promocao,reembolso,0.5677849999869977
+tfidf,dá para adicionar mais um item ao pedido,alterar_pedido-03,alterar_pedido,alterar_pedido,0.5044030000078692
+tfidf,Oi pessoal dá para adicionar mais um item ao pedio!!,alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,0.5427199999985532
+tfidf,"POR FAVOR, DA PARA ADICIONAR MAIS UM ITEM AO PED #76132!!",alterar_pedido-03,alterar_pedido,alterar_pedido,0.5365380000057485
+tfidf,DÁ PARA ADICIONAR MAIS UM ITEM AO PEDIDO #19045,alterar_pedido-03,alterar_pedido,alterar_pedido,0.5628179999916938
+tfidf,dá para adicionar mais um item ao pedido (pedido 77502),alterar_pedido-03,alterar_pedido,alterar_pedido,0.5194489999951202
+tfidf,E AÍ DÁ PARA ADICIONAR MAIS UM ITEM AO PEDIDO!!,alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,0.5683079999982965
+tfidf,"olá, tudo bem? dá pra adicionar mais um item ao pedido de hoje alguém aí?",alterar_pedido-03,alterar_pedido,alterar_pedido,0.5812769999806733
+tfidf,dá para adicionar mais um item ao pedido no app :(,alterar_pedido-03,alterar_pedido,alterar_pedido,0.5639860000030694
+tfidf,oi dá para adicionar mais um item ao pedido do Pizzaria Bella :(,alterar_pedido-03,alterar_pedido,alterar_pedido,0.5594300000097974
+tfidf,E AI DA PARA ADIICONAR MAIS UM ITEM AO PED,alterar_pedido-03,alterar_pedido,atraso_entrega,0.498921999991353
+tfidf,quero tirar um item do pedido que já fiz,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,0.5629210000108742
+tfidf,Oi quero tirar um item do pedido que ja fiz de hoje,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,0.507394999999633
+tfidf,ola qro tirar um item do pedido que ja fiz #3817,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,0.5994100000066283
+tfidf,bom dia quero tirar um item do ped que já fiz (pedido 60795) urgente,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,0.5406550000088828
+tfidf,Quero tirar um item do pedido que já fiz no app,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,0.5362830000024132
+tfidf,quero tirar um item do pedido que já fiz no app?,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,0.4969409999944219
+tfidf,Ei qro tirar um item do ped que ja fiz (pedido 17575) :(,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,0.5468889999917792
+tfidf,Oi pessoal quero tirar um item do ped que já fiz de hoje,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,0.5278609999948003
+tfidf,ei quero tirar um item do pedido que já fiz do Sushi Yama obrigado,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,0.5596470000170939
+tfidf,boa noite quero tirar um item do pedido que já fiz #60255,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,0.5626619999929972
+tfidf,posso alterar o horário de entrega,alterar_pedido-06,alterar_pedido,alterar_pedido,0.49380500001916516
+tfidf,bom dia posso alterar o horário de entrega,alterar_pedido-06,alterar_pedido,alterar_pedido,0.51543399999332
+tfidf,posso alterar o horário de entrega (pedido 43739)?,alterar_pedido-06,alterar_pedido,alterar_pedido,0.5087899999978163
+tfidf,ei posso alterar o horário de entrega de hoje?,alterar_pedido-06,alterar_pedido,alterar_pedido,0.5092200000262892
+tfidf,posso alterar o horário de entrega no app urgente,alterar_pedido-06,alterar_pedido,alterar_pedido,0.5207930000210581
+tfidf,Oi pessoal possso alterar o horario de entrega,alterar_pedido-06,alterar_pedido,alterar_pedido,0.5345480000187308
+tfidf,posso alterar o horario de entrega #39155 :(,alterar_pedido-06,alterar_pedido,alterar_pedido,0.5068689999916387
+tfidf,posso alterar o horário de entrega no app,alterar_pedido-06,alterar_pedido,alterar_pedido,0.5505369999809773
+tfidf,olá posso alterar o horário de entrega #18030 obrigado,alterar_pedido-06,alterar_pedido,alterar_pedido,0.5504990000133603
+tfidf,E aí posso alterar o horário de entrega (pedido 78003) alguém aí?,alterar_pedido-06,alterar_pedido,alterar_pedido,0.5682240000055572
+tfidf,"mudei de casa, atualizem o endereço do pedido",alterar_pedido-08,alterar_pedido,alterar_pedido,0.49662399999306217
+tfidf,"olá, tudo bem? mudei de casa, atualizem o enereço do pedido de hoje",alterar_pedido-08,alterar_pedido,alterar_pedido,0.5880450000006476
+tfidf,"Oi pessoal mudei de casa, atualizem o endereço do ped",alterar_pedido-08,alterar_pedido,alterar_pedido,0.5098279999913302
+tfidf,"Mudei de casa, atualizem o endereco do ped #27212 obrigado",alterar_pedido-08,alterar_pedido,alterar_pedido,0.5654100000072049
+tfidf,"Por favor, mudei de casa, atualizem o endereço do pedido",alterar_pedido-08,alterar_pedido,alterar_pedido,0.5608120000033523
+tfidf,"Ei mudei de casa, atualizem o endereço do pedido de hoje",alterar_pedido-08,alterar_pedido,alterar_pedido,0.5041459999972631
+tfidf,"Mudei de casa, ataulizem o endereco do ped no app obrigado",alterar_pedido-08,alterar_pedido,alterar_pedido,0.49358500001517314
+tfidf,"oi mudei de casa, atualizem o endereço do pedido de hoje obrigado",alterar_pedido-08,alterar_pedido,alterar_pedido,0.5388779999861981
+tfidf,"Por favor, mudei de casa, atulaizem o endereco do pedido de hoje alguem ai?",alterar_pedido-08,alterar_pedido,alterar_pedido,0.5655250000131673
+tfidf,"MUDEI DE CASA, ATUALIZEM O ENDEREÇO DO PEDIDO DO SUSHI YAMA?",alterar_pedido-08,alterar_pedido,alterar_pedido,0.5066829999975653
+tfidf,esqueci minha senha,problema_conta-00,problema_conta,problema_conta,0.4996650000066438
+tfidf,Boa noite esqueci minha senha no app,problema_conta-00,problema_conta,problema_conta,0.505533999984209
+tfidf,esqueci minha senah urgente,problema_conta-00,problema_conta,problema_conta,0.5536059999826648
+tfidf,"por favor, esqueci minha snha no app",problema_conta-00,problema_conta,problema_conta,0.4726129999994555
+tfidf,olá esqueci minha senha do Pizzaria Bella,problema_conta-00,problema_conta,problema_conta,0.5363500000044041
+tfidf,"ola, tudo bem? esqueci minha senah de hoje",problema_conta-00,problema_conta,problema_conta,0.4905790000009347
+tfidf,"ola, tudo bem? esqueci minha senha #65883 obrigado",problema_conta-00,problema_conta,problema_conta,0.5173919999776899
+tfidf,Esqueci minha senha #92803 :(,problema_conta-00,problema_conta,problema_conta,0.4419889999951465
+tfidf,boa noite esqueci minha senha urgente,problema_conta-00,problema_conta,problema_conta,0.5085040000096797
+tfidf,olá esqueci minha senha alguém aí?,problema_conta-00,problema_conta,problema_conta,0.4842179999968721
+tfidf,minha conta foi bloqueada,problema_conta-06,problema_conta,problema_conta,0.5260789999965709
+tfidf,"Por favor, minha conta foi bloqueada!!",problema_conta-06,problema_conta,problema_conta,0.4559410000126718
+tfidf,oi minha conta foi bloqueada de hoje?,problema_conta-06,problema_conta,problema_conta,0.4805729999759478
+tfidf,"POR FAVOR, MINHA CONTA FOI BLOQUEADA",problema_conta-06,problema_conta,problema_conta,0.4524539999977151
+tfidf,Oi minha conta foi bloqueada de hoje!!,problema_conta-06,problema_conta,problema_conta,0.49924999999007014
+tfidf,Bom dia minha conta foi bloqueada (pedido 74445) :(,problema_conta-06,problema_conta,problema_conta,0.4710360000217406
+tfidf,Olá minha conta foi bloqueada alguém aí?,problema_conta-06,problema_conta,problema_conta,0.48026700000036726
+tfidf,e ai minha conta foi blooqueada no app,problema_conta-06,problema_conta,problema_conta,0.45589399999812485
+tfidf,oi minha conta foi bloqueada no app,problema_conta-06,problema_conta,problema_conta,0.5203229999892756
+tfidf,Ola minha conta foi bloquueada (pedido 40768) alguem ai?,problema_conta-06,problema_conta,problema_conta,0.5029440000043905
+tfidf,acho que alguém invadiu meu perfil,problema_conta-07,problema_conta,status_pedido,0.4607690000000275
+tfidf,ola acho que alguem invadiu meu perfil (pedido 6123),problema_conta-07,problema_conta,status_pedido,0.5335600000080376
+tfidf,acho que alguém invadiu meu perfil #71070 preciso de ajuda,problema_conta-07,problema_conta,falar_com_humano,0.5187859999864486
+tfidf,olá acho que alguém invadiu meu perffil urgente,problema_conta-07,problema_conta,status_pedido,0.5010430000140786
+tfidf,acho que alguém invadiu meu perfil (pedido 24165)!!,problema_conta-07,problema_conta,status_pedido,0.5049460000066119
+tfidf,"Por favor, acho que alguém invadiu meu perfil no app preciso de ajuda",problema_conta-07,problema_conta,falar_com_humano,0.5397029999869574
+tfidf,acho que alguem invadiu meu perfil #77239 :(,problema_conta-07,problema_conta,falar_com_humano,0.594850999988239
+tfidf,Oi pessoal acho que alguém invadiu meu perfil,problema_conta-07,problema_conta,cupom_promocao,0.5308320000096955
+tfidf,Acho que alguem invadiu meu perfil por favor,problema_conta-07,problema_conta,falar_com_humano,0.5470020000188924
+tfidf,boa noite acho que alguém invadiu meu perfil,problema_conta-07,problema_conta,status_pedido,0.48025600000300983
+tfidf,não consigo criar uma conta nova,problema_conta-10,problema_conta,problema_conta,0.5525599999884889
+tfidf,ola nao consigo criar uma conta nova (pedido 75981) alguem ai?,problema_conta-10,problema_conta,problema_pagamento,0.5091959999958817
+tfidf,Boa noite n consigo criar uma conta nova?,problema_conta-10,problema_conta,problema_pagamento,0.5111639999881845
+tfidf,OI PESSOAL NÃO CONSIGO CRIAR UMA CONTA NOVA URGENTE,problema_conta-10,problema_conta,problema_pagamento,0.5284349999783444
+tfidf,n consigo criar uma conta nova no app,problema_conta-10,problema_conta,problema_conta,0.555134000023827
+tfidf,Ei não consigo crriar uma conta nova,problema_conta-10,problema_conta,problema_conta,0.47499199999379016
+tfidf,não consigo criar uma conta nova?,problema_conta-10,problema_conta,problema_conta,0.5430530000012368
+tfidf,boa noite nao consigo ciar uma conta nova!!,problema_conta-10,problema_conta,problema_pagamento,0.49116400001025795
+tfidf,"ola, tudo bem? nao consigo criar uma conta nova!!",problema_conta-10,problema_conta,problema_conta,0.5145189999780087
+tfidf,não consigo criar uma conta nova preciso de ajuda,problema_conta-10,problema_conta,problema_conta,0.48519199998509066
+tfidf,o lanche veio com gosto estranho,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,0.507648000024119
+tfidf,O lanche veio com gosto estranho (pedido 55357) obrigado,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,0.5467640000063057
+tfidf,ei o lanche veio com gosto estranho de hoje obrigado,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,0.5229420000034679
+tfidf,o lanche veio com gosto estranho preciso de ajuda,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,0.47263700000144127
+tfidf,o lanche veio com gosto estranho alguém aí?,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,0.5190869999864844
+tfidf,Bom dia o lanche veio com gosto estranho (pedido 73470),qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,0.5676389999962339
+tfidf,"Olá, tudo bem? o lanche veio com gosto estranho!!",qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,0.5139730000109921
+tfidf,O lanche veio com gosto estranho,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,0.4932280000105038
+tfidf,olá o lanche veio com gosto estranho no app,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,0.5035259999885966
+tfidf,Ei o lanche veio com gosto estranho,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,0.5503160000159824
+tfidf,o sorvete chegou derretido,qualidade_comida-06,qualidade_comida,qualidade_comida,0.4664569999874857
+tfidf,"Por favor, o sorvete chegou derretido do Burger Ponto :(",qualidade_comida-06,qualidade_comida,qualidade_comida,0.5578189999937422
+tfidf,ei o sorvete chegou derretido urgente,qualidade_comida-06,qualidade_comida,qualidade_comida,0.48057800000833595
+tfidf,ei o sorvete chegou derretido preciso de ajuda,qualidade_comida-06,qualidade_comida,item_faltando_ou_errado,0.5427279999992152
+tfidf,oi pessoal o srovete chegou derretido (pedido 97493) :(,qualidade_comida-06,qualidade_comida,item_faltando_ou_errado,0.505457000002707
+tfidf,bom dia o sorvete chegou derretido de hoje por favor,qualidade_comida-06,qualidade_comida,atraso_entrega,0.5189889999996922
+tfidf,"Por favor, o sorvete chegou derretido do Sushi Yama!!",qualidade_comida-06,qualidade_comida,qualidade_comida,0.4899580000028436
+tfidf,"por favor, o sorvete chegou derretido",qualidade_comida-06,qualidade_comida,qualidade_comida,0.5852600000082475
+tfidf,Olá o sorvete chegou derretido do Pizzaria Bella preciso de ajuda,qualidade_comida-06,qualidade_comida,qualidade_comida,0.5496759999914502
+tfidf,O sorvete chegou derretido (pedido 41543)?,qualidade_comida-06,qualidade_comida,item_faltando_ou_errado,0.531472000005806
+tfidf,passei mal depois de comer o pedido,qualidade_comida-07,qualidade_comida,status_pedido,0.472621999989542
+tfidf,olá passei mal depois de comer o pedido do Sushi Yama,qualidade_comida-07,qualidade_comida,alterar_pedido,0.5736739999804286
+tfidf,Ei passei mal depois de comer o pedido!!,qualidade_comida-07,qualidade_comida,status_pedido,0.5015549999995983
+tfidf,olá pasei mal depois de comer o pedido,qualidade_comida-07,qualidade_comida,status_pedido,0.5387520000113
+tfidf,Passei mal depois de comer o ped (pedido 66797),qualidade_comida-07,qualidade_comida,status_pedido,0.5193589999805681
+tfidf,Passei mal depois de comer o pedido :(,qualidade_comida-07,qualidade_comida,status_pedido,0.5575429999851167
+tfidf,olá passei mal depois de comer o pedido no app?,qualidade_comida-07,qualidade_comida,status_pedido,0.5516570000168031
+tfidf,Olá passei mal depois de comer o pedido,qualidade_comida-07,qualidade_comida,status_pedido,0.4955729999949199
+tfidf,boa noite passei mal depois de comer o ped do Pizzaria Bella obrigado,qualidade_comida-07,qualidade_comida,status_pedido,0.5722379999895111
+tfidf,BOA NOITE PASSEI MAL DEPOIS DE COMER O PEDIDO DE HOJE :(,qualidade_comida-07,qualidade_comida,status_pedido,0.5267349999940052
+tfidf,o sushi parecia velho,qualidade_comida-09,qualidade_comida,reembolso,0.5094619999965744
+tfidf,boa noite o sushi parecia velho,qualidade_comida-09,qualidade_comida,reembolso,0.472254000015937
+tfidf,o sushi paarecia velho do Sushi Yama :(,qualidade_comida-09,qualidade_comida,reembolso,0.5550230000039846
+tfidf,boa noite o sushi parecia veloh de hoje!!,qualidade_comida-09,qualidade_comida,reembolso,0.523089000012078
+tfidf,Olá o sushi parecia velho de hoje preciso de ajuda,qualidade_comida-09,qualidade_comida,falar_com_humano,0.5665890000159379
+tfidf,"por favor, o sushi parecia velho no app",qualidade_comida-09,qualidade_comida,falar_com_humano,0.481193000013036
+tfidf,ei o sushi parecia velho?,qualidade_comida-09,qualidade_comida,reembolso,0.5229840000140484
+tfidf,oi pessoal o sushi parecia vleho preciso de ajuda,qualidade_comida-09,qualidade_comida,falar_com_humano,0.5221720000179175
+tfidf,"OLÁ, TUDO BEM? O SUSHI PARECIA VELHO #14819 OBRIGADO",qualidade_comida-09,qualidade_comida,falar_com_humano,0.5491469999867604
+tfidf,oi pessoal o sushi parecia velho urgente,qualidade_comida-09,qualidade_comida,falar_com_humano,0.5694160000189186
+tfidf,não quero falar com robô,falar_com_humano-02,falar_com_humano,falar_com_humano,0.5343999999922744
+tfidf,"Ola, tudo bem? nao quero falar com robo de hoje!!",falar_com_humano-02,falar_com_humano,falar_com_humano,0.5119300000160365
+tfidf,não quero falar com robô alguém aí?,falar_com_humano-02,falar_com_humano,falar_com_humano,0.5197280000004412
+tfidf,"olá, tudo bem? não quero falar com robô no app",falar_com_humano-02,falar_com_humano,falar_com_humano,0.5546839999794884
+tfidf,ei não quero falar com robô?,falar_com_humano-02,falar_com_humano,falar_com_humano,0.4884440000125778
+tfidf,oi pessoal nao quero falar com robo urgente,falar_com_humano-02,falar_com_humano,falar_com_humano,0.5239499999731834
+tfidf,boa noite não quero falar com robô no app urgente,falar_com_humano-02,falar_com_humano,falar_com_humano,0.489145999978291
+tfidf,Ei não quero falar com robô no app?,falar_com_humano-02,falar_com_humano,falar_com_humano,0.5849060000002737
+tfidf,ei n quero falar com robô,falar_com_humano-02,falar_com_humano,falar_com_humano,0.4915459999779159
+tfidf,E aí n quero falar com robô!!,falar_com_humano-02,falar_com_humano,falar_com_humano,0.5114539999908629
+tfidf,"isso não resolve, chama um supervisor",falar_com_humano-05,falar_com_humano,falar_com_humano,0.5133780000221577
+tfidf,"boa noite isso não resolve, chama um supervisor (pedido 99292) preciso de ajuda",falar_com_humano-05,falar_com_humano,falar_com_humano,0.6099400000039168
+tfidf,"OLÁ, TUDO BEM? ISSO NÃO RESOLVE, CHAMA UM SUPERVISOR ALGUÉM AÍ?",falar_com_humano-05,falar_com_humano,falar_com_humano,0.5229860000213193
+tfidf,"boa noite isso não resolve, chama um supervisor",falar_com_humano-05,falar_com_humano,falar_com_humano,0.5300549999844861
+tfidf,"oi pessoal isso nao resolve, chama um supervisor",falar_com_humano-05,falar_com_humano,falar_com_humano,0.5110669999908168
+tfidf,"Boa noite isso nao resolve, chama um supervisor no app!!",falar_com_humano-05,falar_com_humano,falar_com_humano,0.5954940000094666
+tfidf,"olá, tudo bem? isso não resolve, chama um supervisor no app obrigado",falar_com_humano-05,falar_com_humano,falar_com_humano,0.5801120000228366
+tfidf,"Oi pessoal isso não resolve, chama um supervisor urgente",falar_com_humano-05,falar_com_humano,falar_com_humano,0.48786399997879926
+tfidf,"isso n resolve, chama um supervisor",falar_com_humano-05,falar_com_humano,falar_com_humano,0.49749500001894376
+tfidf,"Oi isso n resolve, chama um supervisor do Cantina da Vó",falar_com_humano-05,falar_com_humano,falar_com_humano,0.49440199998684875
+tfidf,quero abrir uma reclamação formal,falar_com_humano-06,falar_com_humano,problema_conta,0.4940059999967161
+tfidf,E aí quero abrir uma reclamaãço formal (pedido 91491) :(,falar_com_humano-06,falar_com_humano,alterar_pedido,0.5074720000095567
+tfidf,"Ola, tudo bem? quero abrir uma reclamacao formal do Cantina da Vo alguem ai?",falar_com_humano-06,falar_com_humano,problema_conta,0.5915499999957774
+tfidf,"OLA, TUDO BEM? QUERO ABRIR UMA RECLAMACAO FORMAL",falar_com_humano-06,falar_com_humano,problema_conta,0.48223100000654995
+tfidf,Boa noite quero abrir uma reclamacao formla do Cantina da Vo obrigado,falar_com_humano-06,falar_com_humano,problema_conta,0.5196639999951458
+tfidf,Ei quero abrir uma reclamação formal (pedido 69482) urgente,falar_com_humano-06,falar_com_humano,problema_conta,0.4868279999925562
+tfidf,olá quero abrir uma reclamação formal de hoje :(,falar_com_humano-06,falar_com_humano,problema_conta,0.5186360000095647
+tfidf,"OLA, TUDO BEM? QUERO ABRIR UMA RECLAMACAO FORMAL :(",falar_com_humano-06,falar_com_humano,problema_conta,0.48332000000073094
+tfidf,oi qro abrir uma reclamacao formal (pedido 92942) alguem ai?,falar_com_humano-06,falar_com_humano,problema_conta,0.5297210000207997
+tfidf,oi quero abrir uma reclamação formal urgente,falar_com_humano-06,falar_com_humano,problema_conta,0.4663619999973889
+tfidf,peça para um analista entrar em contato comigo,falar_com_humano-10,falar_com_humano,problema_conta,0.5766060000098605
+tfidf,Olá peça para um analista entrar em contato comigo no app alguém aí?,falar_com_humano-10,falar_com_humano,problema_conta,0.5112810000014179
+tfidf,boa noite peça para um analista entrar em contato comigo #67448 obrigado,falar_com_humano-10,falar_com_humano,alterar_pedido,0.5703230000051462
+tfidf,peça pra um analista entrar em contato comigo #75447 preciso de ajuda,falar_com_humano-10,falar_com_humano,alterar_pedido,0.5140510000103404
+tfidf,boa noite peça para um analista entrar em contato comigo,falar_com_humano-10,falar_com_humano,problema_conta,0.5296429999930297
+tfidf,Bom dia peça pra um analista entrra em contato comigo #21203,falar_com_humano-10,falar_com_humano,cupom_promocao,0.48215799998274633
+tfidf,peca para um analista entrar em contato comigo no app obrigado,falar_com_humano-10,falar_com_humano,problema_conta,0.5041979999873547
+tfidf,e aí peça para um analista entrar em contato comigo no app,falar_com_humano-10,falar_com_humano,problema_conta,0.516898000000765
+tfidf,Peça para um analista enrar em contato comigo de hoje?,falar_com_humano-10,falar_com_humano,falar_com_humano,0.5579660000023523
+tfidf,Boa noite peca pra um analista entrar em conttao comigo de hoje,falar_com_humano-10,falar_com_humano,problema_conta,0.47590400001240596
+lsa,onde está meu pedido agora,status_pedido-00,status_pedido,status_pedido,1.16925099999321
+lsa,"Por favor, onde está meu pedido aogra alguém aí?",status_pedido-00,status_pedido,status_pedido,1.2267060000112906
+lsa,"OLÁ, TUDO BEM? ONDE TÁ MEU PED AGORA PRECISO DE AJUDA",status_pedido-00,status_pedido,status_pedido,1.1321810000026744
+lsa,bom dia onde ta meu pedido agora por favor,status_pedido-00,status_pedido,status_pedido,1.0596139999847765
+lsa,E aí onde tá meu ped agora (pedido 6695),status_pedido-00,status_pedido,status_pedido,1.087885999993432
+lsa,"Ola, tudo bem? onde esta meu pedido agora de hoje",status_pedido-00,status_pedido,status_pedido,1.1372669999900609
+lsa,bom dia onde tá meu ped agoora de hoje,status_pedido-00,status_pedido,status_pedido,1.0969649999879039
+lsa,"por favor, onde está meu peiddo agora do Sushi Yama alguém aí?",status_pedido-00,status_pedido,alterar_pedido,1.0974329999839938
+lsa,boa noite onde esta meu pedido agora #5207 por favor,status_pedido-00,status_pedido,status_pedido,1.0500120000074276
+lsa,Boa noite onde está meu pedido agora #86909 preciso de ajuda,status_pedido-00,status_pedido,status_pedido,1.1817109999867625
+lsa,"cadê meu pedido, não aparece nada no app",status_pedido-08,status_pedido,status_pedido,1.1263180000185002
+lsa,"cade meu pedido, n aparece nada no app do Sushi Yama",status_pedido-08,status_pedido,alterar_pedido,1.1322560000053272
+lsa,"Ei cade meu pedido, n aparece nada no app por favor",status_pedido-08,status_pedido,status_pedido,1.1058059999982106
+lsa,"oi pessoal cade meu pedido, nao aparece nada no app #69494 :(",status_pedido-08,status_pedido,cancelar_pedido,1.1415170000077524
+lsa,"Cade meu pedido, nao apaarece nada no app #35687",status_pedido-08,status_pedido,status_pedido,1.0505389999764247
+lsa,"ola cade meu pedido, nao aparece nada no app (pedido 5278) alguem ai?",status_pedido-08,status_pedido,cancelar_pedido,1.0874019999960183
+lsa,"e aí cadê meu pedido, n aparece nada no app #56723",status_pedido-08,status_pedido,status_pedido,1.1190889999852516
+lsa,"OI PESSOAL CADÊ MEU PEDIDO, NÃO APARRECE NADA NO APP (PEDIDO 58560) ALGUÉM AÍ?",status_pedido-08,status_pedido,status_pedido,1.0927120000019386
+lsa,"Ei cade meu pedido, nao aparece nada no app por favor",status_pedido-08,status_pedido,cancelar_pedido,1.0256420000018807
+lsa,"Ei cadê meu pedido, não aparece nada no app",status_pedido-08,status_pedido,status_pedido,1.1604120000185958
+lsa,pode me dizer em que etapa está meu pedido,status_pedido-11,status_pedido,status_pedido,1.0524420000024293
+lsa,Oi pessoal pode me dizer em que etapa esta meu pedido no app por favor,status_pedido-11,status_pedido,status_pedido,1.1264549999907558
+lsa,olá pode me dizer em que etapa tá meu pedido (pedido 3875),status_pedido-11,status_pedido,status_pedido,1.1428560000013022
+lsa,Oi pode me dizer em que etapa esta meu pedio #80569 preciso de ajuda,status_pedido-11,status_pedido,falar_com_humano,1.1568460000148661
+lsa,"por favor, pode me dizer em que etapa esta meu pedido preciso de ajuda",status_pedido-11,status_pedido,status_pedido,1.0758589999966262
+lsa,pode me dizer em que etapa esta meu ped de hoje,status_pedido-11,status_pedido,status_pedido,1.0979449999979352
+lsa,Oi pessoal pode me dizer em que etapa está meu pedido (pedido 22567) por favor,status_pedido-11,status_pedido,status_pedido,1.1172499999929641
+lsa,pode me dizer em que etapa esta meu ped no app obrigado,status_pedido-11,status_pedido,status_pedido,1.1044710000192026
+lsa,oi pessoal pode me dizer em que etapa está meu pedido de hoje,status_pedido-11,status_pedido,status_pedido,1.0658380000165835
+lsa,"Por favor, pode me dizer em que etapa esta meu pedido do Sushi Yama obrigado",status_pedido-11,status_pedido,status_pedido,1.1062270000081753
+lsa,o mapa do entregador não atualiza,status_pedido-12,status_pedido,atraso_entrega,1.079758999992464
+lsa,Boa noite o mapa do entegador não atualiza do Cantina da Vó?,status_pedido-12,status_pedido,atraso_entrega,1.1388819999922362
+lsa,"OLA, TUDO BEM? O MAPA DO ENTREGADOR N ATUALIZA NO APP URGENTE",status_pedido-12,status_pedido,status_pedido,1.0798509999858652
+lsa,o mapa do entregador nao atualiza de hoje obrigado,status_pedido-12,status_pedido,atraso_entrega,1.0757169999919824
+lsa,"Por favor, o mapa do entregador não atualiza preciso de ajuda",status_pedido-12,status_pedido,cancelar_pedido,1.1152760000072703
+lsa,O mapa do entregador nao atualiza!!,status_pedido-12,status_pedido,atraso_entrega,1.0699839999972482
+lsa,olá o mapa do entregador não atualiza,status_pedido-12,status_pedido,atraso_entrega,1.066955999988295
+lsa,Bom dia o mapa do entergador nao atualiza de hoje,status_pedido-12,status_pedido,reembolso,1.0987290000059602
+lsa,bom dia o mapa do entregador não atualiza!!,status_pedido-12,status_pedido,reembolso,1.0781409999935931
+lsa,O MAPA DO ENTREGADOR NÃO ATUALIZA (PEDIDO 61036) :(,status_pedido-12,status_pedido,atraso_entrega,1.1606630000073892
+lsa,meu pedido está muito atrasado,atraso_entrega-00,atraso_entrega,status_pedido,1.0817680000059227
+lsa,meu pedido esta muito atrasado de hoje,atraso_entrega-00,atraso_entrega,status_pedido,1.1245270000017626
+lsa,ei meu pedido esta muito atrasado (pedido 60469) obrigado,atraso_entrega-00,atraso_entrega,status_pedido,1.0523349999971288
+lsa,oi meu pedido está muito atrasado #57370 obrigado,atraso_entrega-00,atraso_entrega,status_pedido,1.0982409999940046
+lsa,Meu ped está muito atrasado de hoje,atraso_entrega-00,atraso_entrega,status_pedido,1.0533930000065084
+lsa,boa noite meu pedido está muito atrasado de hoje urgente,atraso_entrega-00,atraso_entrega,status_pedido,1.1166419999995014
+lsa,ei meu pedido ta muito atrasado (pedido 47090)!!,atraso_entrega-00,atraso_entrega,status_pedido,1.0647550000157935
+lsa,boa noite meu ped está muito atrasado (pedido 76248)!!,atraso_entrega-00,atraso_entrega,status_pedido,1.0371259999999438
+lsa,meu pedido esta muito atrasado,atraso_entrega-00,atraso_entrega,status_pedido,1.08942500000353
+lsa,"por favor, meu pedido esta muito atrasado obrigado",atraso_entrega-00,atraso_entrega,status_pedido,1.0815679999893746
+lsa,já passou do horário previsto e nada de chegar,atraso_entrega-01,atraso_entrega,status_pedido,1.1473069999965446
+lsa,bom dia já passou do horáio previsto e nada de chegar do Pizzaria Bella por favor,atraso_entrega-01,atraso_entrega,reembolso,1.0970950000057655
+lsa,olá já passou do horário previsto e nada de chegar :(,atraso_entrega-01,atraso_entrega,status_pedido,1.118224999999029
+lsa,já passou do horário previsto e nada de chegar por favor,atraso_entrega-01,atraso_entrega,status_pedido,1.061181000011402
+lsa,ja passou do horario previsto e nada de chegar #52807,atraso_entrega-01,atraso_entrega,status_pedido,1.0747770000136825
+lsa,Já passou do horário previsto e nada de chegar (pedido 44007) :(,atraso_entrega-01,atraso_entrega,status_pedido,1.0604530000080103
+lsa,"olá, tudo bem? já passou do horário previsto e nada de chegar de hoje",atraso_entrega-01,atraso_entrega,status_pedido,1.1778020000008382
+lsa,"Olá, tudo bem? já passou do horário previsto e nada de chegar no app preciso de ajuda",atraso_entrega-01,atraso_entrega,status_pedido,1.0755459999813866
+lsa,Já passou do horário previsto e nada de chegar do Sushi Yama obrigado,atraso_entrega-01,atraso_entrega,status_pedido,1.0896550000154548
+lsa,Oi já passou do horário previsto e nada de chegar no app urgente,atraso_entrega-01,atraso_entrega,status_pedido,1.076560999990761
+lsa,estou esperando faz mais de uma hora,atraso_entrega-02,atraso_entrega,atraso_entrega,1.1746019999918644
+lsa,"Olá, tudo bem? estou esperando faz mais de uma hora #46793 preciso de ajuda",atraso_entrega-02,atraso_entrega,alterar_pedido,1.082343000007313
+lsa,OI PESSOAL TÔ ESPERANDO FAZ MAIS DE UMA HORA?,atraso_entrega-02,atraso_entrega,atraso_entrega,1.1281359999770757
+lsa,ESTOU ESPERANDO FAZ MAIS DE UMA HORA DE HOJE :(,atraso_entrega-02,atraso_entrega,reembolso,1.0986400000092544
+lsa,bom dia to esprando faz mais de uma hora do Burger Ponto por favor,atraso_entrega-02,atraso_entrega,atraso_entrega,1.1164139999948475
+lsa,E AÍ ESTOU ESPERANDO FAZ MAIS DE UMA HORA NO APP ALGUÉM AÍ?,atraso_entrega-02,atraso_entrega,falar_com_humano,1.091750000000502
+lsa,e aí estou esperando faz mais de uma hora de hoje,atraso_entrega-02,atraso_entrega,reembolso,1.0983150000072328
+lsa,boa noite estou esperando faz mais de uma hora de hoje obrigado,atraso_entrega-02,atraso_entrega,atraso_entrega,1.122672999997576
+lsa,"por favor, estou esperando faz mais de uma hora de hoje obrigado",atraso_entrega-02,atraso_entrega,atraso_entrega,1.0883720000265384
+lsa,Ei estou esperando faz mais de uma hora preciso de ajuda,atraso_entrega-02,atraso_entrega,alterar_pedido,1.1417739999899368
+lsa,passou uma hora e meia e ninguém entregou nada,atraso_entrega-07,atraso_entrega,reembolso,1.1172110000075008
+lsa,ei passou uma hora e meia e ninguem entregou nada?,atraso_entrega-07,atraso_entrega,reembolso,1.1273549999941679
+lsa,Passou uma hora e meia e ninguém entregou nada preciso de ajuda,atraso_entrega-07,atraso_entrega,reembolso,1.0821660000033262
+lsa,olá passou uma hora e meia e ninguém entregou nada preciso de ajuda,atraso_entrega-07,atraso_entrega,reembolso,1.136900999995305
+lsa,"OLA, TUDO BEM? PASSOU UMA HORA E MEIA E NINGUEM ENTREGOU NADA (PEDIDO 60446)",atraso_entrega-07,atraso_entrega,reembolso,1.0828929999888715
+lsa,"Olá, tudo bem? passou uma hora e meia e ninguém entregou nada urgente",atraso_entrega-07,atraso_entrega,alterar_pedido,1.106815000014194
+lsa,Passou uma hora e meia e ninguém entregou nada de hoje por favor,atraso_entrega-07,atraso_entrega,reembolso,1.0697490000097787
+lsa,Bom dia passou uma hora e meia e ninguém entregou nada no app?,atraso_entrega-07,atraso_entrega,reembolso,1.0985689999927217
+lsa,Oi pessoal passou uma hora e meia e ninguem entregou nada do Sushi Yama,atraso_entrega-07,atraso_entrega,reembolso,1.1142469999754212
+lsa,olá passou uma hora e meia e ninguém entregou nada de hoje :(,atraso_entrega-07,atraso_entrega,reembolso,1.1198199999853387
+lsa,"desisti da compra, pode cancelar",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,1.0303899999826172
+lsa,"Por favor, desisti da compra, pode cancelar no app?",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,1.1147369999946477
+lsa,"desisti da compra, pode cancelar obrigado",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,1.0469359999945027
+lsa,"Olá desisti da compra, pode cancelar :(",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,1.0663590000206113
+lsa,"desisti da compra, pode cancellar no app urgente",cancelar_pedido-02,cancelar_pedido,cupom_promocao,1.031905000019151
+lsa,"boa noite desisti da compra, pode cancelar",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,1.117553000000271
+lsa,"Desisti da compra, pode cancelar",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,1.0492099999908078
+lsa,"olá desisti da compra, pode canclar do Sushi Yama",cancelar_pedido-02,cancelar_pedido,alterar_pedido,1.0562979999804156
+lsa,"Boa noite desisti da compra, pode cancelar urgente",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,1.0488839999993615
+lsa,"desisti da compra, pode cancelar no app por favor",cancelar_pedido-02,cancelar_pedido,cancelar_pedido,1.0980499999959648
+lsa,não quero mais o pedido,cancelar_pedido-05,cancelar_pedido,atraso_entrega,1.039036000008764
+lsa,boa noite n querro mais o ped do Açaí do Zé alguém aí?,cancelar_pedido-05,cancelar_pedido,qualidade_comida,1.1075029999858543
+lsa,ei n quero mais o ped (pedido 23047) alguém aí?,cancelar_pedido-05,cancelar_pedido,alterar_pedido,1.1158459999762727
+lsa,E AÍ NÃO QUERO MAIS O PEDIDO (PEDIDO 72186),cancelar_pedido-05,cancelar_pedido,atraso_entrega,1.1221610000120563
+lsa,bom dia não quero mais o pedido,cancelar_pedido-05,cancelar_pedido,atraso_entrega,1.073101999992332
+lsa,"Por favor, nao quero mais o pedido de hoje obrigado",cancelar_pedido-05,cancelar_pedido,cancelar_pedido,1.1067579999917143
+lsa,ola n qro mais o pedido?,cancelar_pedido-05,cancelar_pedido,atraso_entrega,1.105531999996856
+lsa,Não quero mais o pedido por favor,cancelar_pedido-05,cancelar_pedido,cancelar_pedido,1.1103139999875111
+lsa,Oi pessoal não quero mais o pedido de hoje,cancelar_pedido-05,cancelar_pedido,cancelar_pedido,1.1052140000060717
+lsa,nao quero mais o peddo do Cantina da Vo alguem ai?,cancelar_pedido-05,cancelar_pedido,atraso_entrega,1.12337299998444
+lsa,preciso cancelar a entrega de hoje,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,1.1028389999978572
+lsa,Preciso cancelar a entrega de hoje de hoje,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,1.1957840000036413
+lsa,"por favor, preciso cancelar a entrega de hoje (pedido 91502) por favor",cancelar_pedido-07,cancelar_pedido,cancelar_pedido,1.1028010000018185
+lsa,boa noite preciso cancelar a entrega de hoje,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,1.127973999984988
+lsa,preciso cancelar a entrega de hoje obrigado,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,1.1177030000055765
+lsa,Ei preciso cancelar a entrega de hoje do Burger Ponto,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,1.0964619999924707
+lsa,"POR FAVOR, PRECISO CANCELAR A ENTREGA DE HOJE NO APP ALGUÉM AÍ?",cancelar_pedido-07,cancelar_pedido,cancelar_pedido,1.1233930000003056
+lsa,Olá preciso cancelar a entregga de hoje,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,1.1332280000146966
+lsa,olá preciso cancelar a entrega de hoje no app alguém aí?,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,1.0691889999918658
+lsa,ei preciso cancelar a entrega de hoje no app?,cancelar_pedido-07,cancelar_pedido,cancelar_pedido,1.1588959999926374
+lsa,"cancelem o pedido, já resolvi de outro jeito",cancelar_pedido-12,cancelar_pedido,status_pedido,1.1069619999943825
+lsa,"Cancelem o pedido, ja resolvi de outro jeito #22319",cancelar_pedido-12,cancelar_pedido,status_pedido,1.123280000001614
+lsa,"bom dia cancelem o pedido, já resovli de outro jeito?",cancelar_pedido-12,cancelar_pedido,status_pedido,1.081183999986024
+lsa,"Cancelem o pedido, ja resolvi de outro jeito",cancelar_pedido-12,cancelar_pedido,status_pedido,1.1119739999969624
+lsa,"Ola cancelem o pedido, ja resolvi de outro jeito (pedido 87585)",cancelar_pedido-12,cancelar_pedido,status_pedido,1.0916559999998299
+lsa,"boa noite cancelem o pedido, ja resolvi de outro jeito",cancelar_pedido-12,cancelar_pedido,status_pedido,1.1107750000007854
+lsa,"cacnelem o pedido, já resolvi de outro jeito (pedido 11739) por favor",cancelar_pedido-12,cancelar_pedido,status_pedido,1.061165000010078
+lsa,"Boa noite cancelem o pedido, ja resolvi de outro jeito no app urgente",cancelar_pedido-12,cancelar_pedido,status_pedido,1.0976380000045083
+lsa,"Cancelem o pedido, já resolvi de outro jeito (pedido 74956) alguém aí?",cancelar_pedido-12,cancelar_pedido,status_pedido,1.0734329999877446
+lsa,"boa noite cancelem o pedido, já resolvi de outro jeito #73561!!",cancelar_pedido-12,cancelar_pedido,status_pedido,1.1112859999968805
+lsa,pedi sem cebola e veio com cebola,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,1.0244569999997566
+lsa,Oi pessoal pedi sem cebola e veio com cebola (pedido 40121),item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,1.1231910000049083
+lsa,e aí pedi sem cebola e veio com cebola (pedido 25688),item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,1.0692249999806336
+lsa,"olá, tudo bem? pedi sem cebola e veio com cebola de hoje",item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,1.0951240000167672
+lsa,ei pedi sem cebola e veio com cebola no app alguém aí?,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,1.1072209999838378
+lsa,e aí pedi sem cebola e veio com cebola do Sushi Yama por favor,item_faltando_ou_errado-02,item_faltando_ou_errado,alterar_pedido,1.1189290000004348
+lsa,pedi sem ceboal e veio com cebola (pedido 96051) preciso de ajuda,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,1.0890719999849807
+lsa,bom dia pedi sem cebola e veio com cebola (pedido 56112) por favor,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,1.0604259999809074
+lsa,e aí pedi sem ceboal e veio com cebola por favor,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,1.129151000014872
+lsa,oi pessoal pedi sem cebola e veio com cebola de hoje,item_faltando_ou_errado-02,item_faltando_ou_errado,item_faltando_ou_errado,1.1256960000025629
+lsa,chegou faltando metade das coisas,item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,1.1364579999906255
+lsa,"Olá, tudo bem? chegou faltando metade das coisas de hoje?",item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,1.0836509999876398
+lsa,oi pessoal chegou faltando metade das coisas urgente,item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,1.1011160000009568
+lsa,e aí chegou faltando metade das coisas :(,item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,1.0382349999815688
+lsa,chegou faltando metade das coisas #44371!!,item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,1.0967949999951543
+lsa,OI PESSOAL CHEGOU FALTANDO METADE DAS COISAS DO CANTINA DA VÓ,item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,1.0479459999999108
+lsa,Boa noite chegou faltando metade das coisas,item_faltando_ou_errado-05,item_faltando_ou_errado,qualidade_comida,1.0837490000028538
+lsa,oi chegou faltando metade das coisas (pedido 67628) preciso de ajuda,item_faltando_ou_errado-05,item_faltando_ou_errado,cancelar_pedido,1.0503249999942454
+lsa,"ola, tudo bem? chegou faltndo metade das coisas do Sushi Yama :(",item_faltando_ou_errado-05,item_faltando_ou_errado,alterar_pedido,1.0181140000042888
+lsa,bom dia chegou faltando metade das coisas (pedido 72786) alguem ai?,item_faltando_ou_errado-05,item_faltando_ou_errado,falar_com_humano,1.0841990000187707
+lsa,o refrigerante veio de sabor diferente do que escolhi,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,1.100547999982382
+lsa,ei o refrigerante veio de sabor diferente do que escolhi no app,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,1.0655830000132482
+lsa,o refrigerante veio de sabor diferente do que escolhi #94950 obrigado,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,1.1136990000011338
+lsa,e ai o refrigerante veio de sabor diferente do que escollhi alguem ai?,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,1.1055509999948754
+lsa,O refrigerante veio de sabor diferente do que escolhi alguém aí?,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,1.0836390000008578
+lsa,boa noite o refrigerante veio de sabor diferente do que escolhi de hoje?,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,1.0655419999920923
+lsa,o refrigerante veio de sabor diferente do que escolhi (pedido 60355) obrigado,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,1.0175950000075318
+lsa,"por favor, o refrigerante veio de sabor diferente do que escolhi de hoje",item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,1.162515000004305
+lsa,E aí o refrigerante veio de sabor diferente do que escolhi!!,item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,1.0596959999986666
+lsa,"por favor, o refrigerante veio de sabor diferente do que escolhi do Cantina da Vó alguém aí?",item_faltando_ou_errado-06,item_faltando_ou_errado,item_faltando_ou_errado,1.1166889999856267
+lsa,esqueceram o molho e os talheres,item_faltando_ou_errado-08,item_faltando_ou_errado,problema_pagamento,1.0607530000186216
+lsa,Oi esqueceram o molho e os talheres preciso de ajuda,item_faltando_ou_errado-08,item_faltando_ou_errado,cancelar_pedido,1.1460899999917729
+lsa,Esqueceram o molho e os talheres do Burger Ponto preciso de ajuda,item_faltando_ou_errado-08,item_faltando_ou_errado,reembolso,1.0523669999997765
+lsa,boa noite esqueceram o molho e os talheres #6226,item_faltando_ou_errado-08,item_faltando_ou_errado,atraso_entrega,1.1515359999805241
+lsa,oi pessoal esqueceram o molho e os talheres de hoje :(,item_faltando_ou_errado-08,item_faltando_ou_errado,cancelar_pedido,1.091457000001128
+lsa,E aí esqueceram o molho e os talheres,item_faltando_ou_errado-08,item_faltando_ou_errado,falar_com_humano,1.1235320000082538
+lsa,e aí esqueceram o molho e os talheres no app alguém aí?,item_faltando_ou_errado-08,item_faltando_ou_errado,falar_com_humano,1.0772219999921617
+lsa,Esqueceram o molho e os talheres :(,item_faltando_ou_errado-08,item_faltando_ou_errado,problema_pagamento,1.0552329999882204
+lsa,BOA NOITE ESQUECERAM O MOLOH E OS TALHERES #34901 :(,item_faltando_ou_errado-08,item_faltando_ou_errado,atraso_entrega,1.1016240000003563
+lsa,esqueceram o molho e os talheres alguém aí?,item_faltando_ou_errado-08,item_faltando_ou_errado,falar_com_humano,1.1111879999816665
+lsa,quero meu dinheiro de volta,reembolso-00,reembolso,reembolso,1.027561999990212
+lsa,Ei quero meu dinheiro de volta (pedido 26525)!!,reembolso-00,reembolso,status_pedido,1.0795059999963996
+lsa,Olá qro meu dinheiro de volta obrigado,reembolso-00,reembolso,reembolso,1.0833590000061122
+lsa,olá quero meu dinheiro de volta alguém aí?,reembolso-00,reembolso,falar_com_humano,1.0515710000049694
+lsa,EI QUERO MEU DINHEIRO DE VOLTA #60606,reembolso-00,reembolso,alterar_pedido,1.0475850000091214
+lsa,E AI QRO MEU DINHEIRO DE VOLTA?,reembolso-00,reembolso,reembolso,1.0814339999853928
+lsa,Ei quero meu dinheiro de volta de hoje,reembolso-00,reembolso,alterar_pedido,1.0869630000058805
+lsa,bom dia quero meu dinheiro de volta #42383!!,reembolso-00,reembolso,reembolso,1.0493029999736336
+lsa,Qro meu dinheiro de volta de hoje :(,reembolso-00,reembolso,reembolso,1.1184049999997114
+lsa,Oi quero meu dinheiro de volat do Pizzaria Bella alguem ai?,reembolso-00,reembolso,falar_com_humano,1.1276649999842903
+lsa,me devolvam o dinheiro desse pedido,reembolso-06,reembolso,falar_com_humano,1.1278819999915868
+lsa,e ai me devolvam o dinheiro desse ped obrigado,reembolso-06,reembolso,falar_com_humano,1.0904380000056335
+lsa,"Olá, tudo bem? me devolvam o dinheiro desse peedido de hoje preciso de ajuda",reembolso-06,reembolso,falar_com_humano,1.143170999995391
+lsa,E aí me devolvam o dinheiro desse pedido de hoje?,reembolso-06,reembolso,falar_com_humano,1.1234680000029584
+lsa,"olá, tudo bem? me devolvam o dinheiro desse pedido de hoje urgente",reembolso-06,reembolso,falar_com_humano,1.222302999991598
+lsa,Oi pessoal me devolvam o dinheiro desse pedido (pedido 48187) obrigado,reembolso-06,reembolso,falar_com_humano,1.1063880000108384
+lsa,me devolvam o dnheiro desse ped #29157 alguém aí?,reembolso-06,reembolso,falar_com_humano,1.177281999986235
+lsa,Oi pessoal me devolvam o dinheiro desse pedido urgente,reembolso-06,reembolso,falar_com_humano,1.090266000005613
+lsa,Ei me devolvam o dinheiro desse pedido (pedido 40361) obrigado,reembolso-06,reembolso,status_pedido,1.129668000004358
+lsa,Me devolvam o dinheiro desse pedido do Cantina da Vó?,reembolso-06,reembolso,status_pedido,1.0870440000019244
+lsa,"quero o ressarcimento total, paguei e não consegui usar",reembolso-09,reembolso,reembolso,1.1542439999914222
+lsa,"Ei quero o ressarcimento total, paguei e não consegui usar!!",reembolso-09,reembolso,reembolso,1.1332950000166875
+lsa,"quero o ressarcimento total, paguei e nao consegui usar no app urgente",reembolso-09,reembolso,reembolso,1.1514709999858042
+lsa,"oi pessoal quero o rssarcimento total, paguei e não consegui usar no app alguém aí?",reembolso-09,reembolso,falar_com_humano,1.1469389999945179
+lsa,"quero o ressarcimento total, paguei e não consegui usar #14994",reembolso-09,reembolso,reembolso,1.134430000007569
+lsa,"ola, tudo bem? quero o ressarcimento total, paguei e n consegui usar :(",reembolso-09,reembolso,cupom_promocao,1.083896000011464
+lsa,"oi quero o ressarcimento total, paguei e n consegui usar do Pizzaria Bella",reembolso-09,reembolso,reembolso,1.1934849999875041
+lsa,"qro o ressarcimento total, paguei e não consegui usar #27812 :(",reembolso-09,reembolso,reembolso,1.1619139999936579
+lsa,"olá, tudo bem? quero o ressarcimento total, paguei e n consegui usar urgente",reembolso-09,reembolso,cupom_promocao,1.1738249999950767
+lsa,"Oi pessoal quero o ressarcimento total, paguei e não consegui usar :(",reembolso-09,reembolso,reembolso,1.1113799999975527
+lsa,"o reembolso foi negado, por quê",reembolso-11,reembolso,reembolso,1.0940540000206056
+lsa,"Oi o reeembolso foi negado, por que (pedido 82233)",reembolso-11,reembolso,problema_pagamento,1.1149279999926875
+lsa,"O reembollso foi negado, por quê (pedido 44399)",reembolso-11,reembolso,problema_pagamento,1.099328999998761
+lsa,"Bom dia o reembolso foi negado, por que",reembolso-11,reembolso,reembolso,1.104586999986168
+lsa,"O reembolso foi negado, por quê por favor",reembolso-11,reembolso,problema_pagamento,1.1233109999864155
+lsa,"Olá, tudo bem? o reembolso foi negado, por quê no app",reembolso-11,reembolso,problema_pagamento,1.0929020000105538
+lsa,"olá, tudo bem? o reembolso foi negado, por quê por favor",reembolso-11,reembolso,problema_pagamento,1.1133920000077069
+lsa,"ei o reembolso foi negado, por quê de hoje :(",reembolso-11,reembolso,reembolso,1.1392389999969055
+lsa,"O reemboso foi negado, por quê #1207 :(",reembolso-11,reembolso,problema_pagamento,1.114349000005177
+lsa,"bom dia o reembolso foi negado, por quê no app urgente",reembolso-11,reembolso,reembolso,1.06529699999669
+lsa,meu cartão foi recusado,problema_pagamento-00,problema_pagamento,problema_pagamento,1.0755039999992277
+lsa,Meu cartão foi recusado (pedido 43904)!!,problema_pagamento-00,problema_pagamento,problema_pagamento,1.1140989999773865
+lsa,meu cartão foi recusado preciso de ajuda,problema_pagamento-00,problema_pagamento,problema_pagamento,1.1166409999816551
+lsa,meu cartão foi recusado?,problema_pagamento-00,problema_pagamento,problema_pagamento,1.0767960000066523
+lsa,Bom dia meu cartão foi recusado (pedido 37261) :(,problema_pagamento-00,problema_pagamento,problema_pagamento,1.097760000021708
+lsa,olá meu carrtão foi recusado de hoje,problema_pagamento-00,problema_pagamento,problema_pagamento,1.134782000008272
+lsa,Meu cartão foi recusdo do Pizzaria Bella :(,problema_pagamento-00,problema_pagamento,problema_pagamento,1.0573710000016945
+lsa,olá meu cartão foi reccusado do Sushi Yama urgente,problema_pagamento-00,problema_pagamento,problema_pagamento,1.1333420000028127
+lsa,meu cartão foi recusado do Pizzaria Bella alguém aí?,problema_pagamento-00,problema_pagamento,problema_pagamento,1.0887930000080814
+lsa,oi meu cartão foi recusado do Pizzaria Bella,problema_pagamento-00,problema_pagamento,problema_pagamento,1.1062800000161133
+lsa,deu erro na hora de pagar,problema_pagamento-03,problema_pagamento,problema_pagamento,1.0563190000141276
+lsa,oi pessoal deu erro na hora de pagra de hoje :(,problema_pagamento-03,problema_pagamento,cupom_promocao,1.076535000009926
+lsa,deu erro na hora de pagar (pedido 38907) alguém aí?,problema_pagamento-03,problema_pagamento,problema_pagamento,1.1136189999945145
+lsa,ei deu erro na hora de pagar,problema_pagamento-03,problema_pagamento,problema_pagamento,1.0787930000049073
+lsa,ei deu erro na hora de paar,problema_pagamento-03,problema_pagamento,cupom_promocao,1.0563849999982722
+lsa,oi pessoal deu erro na hora de pagar,problema_pagamento-03,problema_pagamento,problema_pagamento,1.1057989999869733
+lsa,boa noite deu erro na hora de pagra do Açaí do Zé,problema_pagamento-03,problema_pagamento,cupom_promocao,1.1244229999931576
+lsa,Deu erro na hora de pagar de hoje,problema_pagamento-03,problema_pagamento,problema_pagamento,1.1013579999996637
+lsa,oi pessoal deu erro na hora de pagar #50781 por favor,problema_pagamento-03,problema_pagamento,problema_pagamento,1.1246749999997974
+lsa,E aí deu erro na hora de pagar do Sushi Yama preciso de ajuda,problema_pagamento-03,problema_pagamento,alterar_pedido,1.1149059999979727
+lsa,o vale refeição não está passando,problema_pagamento-09,problema_pagamento,falar_com_humano,1.09173800001372
+lsa,O vale refiecao nao esta passando alguem ai?,problema_pagamento-09,problema_pagamento,falar_com_humano,1.0666150000133712
+lsa,Boa noite o vale refeição não tá passando :(,problema_pagamento-09,problema_pagamento,atraso_entrega,1.1542869999914274
+lsa,Bom dia o vale refeição n está passando de hoje preciso de ajuda,problema_pagamento-09,problema_pagamento,falar_com_humano,1.1058339999863165
+lsa,Ei o vale refeição não está passando do Sushi Yama,problema_pagamento-09,problema_pagamento,alterar_pedido,1.131022000009807
+lsa,o vale refeicao nao esta passando de hoje urgente,problema_pagamento-09,problema_pagamento,falar_com_humano,1.0550769999895238
+lsa,Bom dia o vale refeição não tá passando de hoje :(,problema_pagamento-09,problema_pagamento,problema_conta,1.2110869999730767
+lsa,ei o vale refeicao nao esta passando (pedido 63116) preciso de ajuda,problema_pagamento-09,problema_pagamento,falar_com_humano,1.0597240000151942
+lsa,O vale refeição não está passando,problema_pagamento-09,problema_pagamento,falar_com_humano,1.0636640000143416
+lsa,"Por favor, o vale refeição não tá passando de hoje",problema_pagamento-09,problema_pagamento,cancelar_pedido,1.0438620000172705
+lsa,cobraram taxa a mais no meu pagamento,problema_pagamento-12,problema_pagamento,problema_pagamento,1.148772000021836
+lsa,Oi pessoal cobraram taxa a mais no meu pagamento obrigado,problema_pagamento-12,problema_pagamento,problema_pagamento,1.0693350000110513
+lsa,ola cobraram taxa a mais no meu pagamento,problema_pagamento-12,problema_pagamento,problema_pagamento,1.1098789999834935
+lsa,Cobraram taxa a mais no meu pagamento #78018 preciso de ajuda,problema_pagamento-12,problema_pagamento,alterar_pedido,1.0573469999997087
+lsa,e aí cobraram taxa a mais no meu pagamento de hoje alguém aí?,problema_pagamento-12,problema_pagamento,alterar_pedido,1.1574840000037057
+lsa,"Olá, tudo bem? cobraram taxa a mais no meu pagamento",problema_pagamento-12,problema_pagamento,problema_pagamento,1.0610530000008112
+lsa,Cobbraram taxa a mais no meu pagamento do Cantina da Vó :(,problema_pagamento-12,problema_pagamento,alterar_pedido,1.13551900000175
+lsa,oi cobraram taxa a mais no meu pagamento no app obrigado,problema_pagamento-12,problema_pagamento,alterar_pedido,1.09600500002216
+lsa,Cobrram taxa a mais no meu pagamento (pedido 74024) urgente,problema_pagamento-12,problema_pagamento,alterar_pedido,1.1546449999855213
+lsa,BOA NOITE COBRARAM TAXA A MAIS NO MEU PAGAMENTO DO CANTINA DA VÓ POR FAVOR,problema_pagamento-12,problema_pagamento,alterar_pedido,1.1046670000212089
+lsa,quero saber das promoções de hoje,cupom_promocao-04,cupom_promocao,cancelar_pedido,1.1138339999945401
+lsa,QUERO SABER DAS PROMOÇÕES DE HOJE NO APP :(,cupom_promocao-04,cupom_promocao,falar_com_humano,1.12046199998872
+lsa,e aí quero saber das promoções de hoje,cupom_promocao-04,cupom_promocao,problema_conta,1.0915139999951862
+lsa,quero saber das promoções de hoje do Burger Ponto preciso de ajuda,cupom_promocao-04,cupom_promocao,status_pedido,1.117680000021437
+lsa,quero saaber das promocoes de hoje (pedido 42120),cupom_promocao-04,cupom_promocao,cancelar_pedido,1.136612000010473
+lsa,bom dia quero saber das promoções de hoje :(,cupom_promocao-04,cupom_promocao,problema_conta,1.0896189999982653
+lsa,boa noite quero saber das promocoes de hoje (pedido 27039) urgente,cupom_promocao-04,cupom_promocao,status_pedido,1.1093990000006215
+lsa,E aí quero saber das promoções de hoje #3717 preciso de ajuda,cupom_promocao-04,cupom_promocao,cancelar_pedido,1.0903989999917485
+lsa,Ei quero saber das promoções de hoje obrigado,cupom_promocao-04,cupom_promocao,alterar_pedido,1.1248719999912282
+lsa,Quero saber das pormoções de hoje no app,cupom_promocao-04,cupom_promocao,falar_com_humano,1.0728100000108043
+lsa,a promoção anunciada não foi aplicada no pedido,cupom_promocao-06,cupom_promocao,problema_pagamento,1.1099780000165538
+lsa,A promoção anunciada não foi aplicada no pdeido,cupom_promocao-06,cupom_promocao,problema_pagamento,1.08807299997693
+lsa,oi pessoal a promoção anunciada n foi aplicada no pedido do Cantina da Vó :(,cupom_promocao-06,cupom_promocao,alterar_pedido,1.1100090000013552
+lsa,olá a prmoção anunciada não foi aplicada no pedido?,cupom_promocao-06,cupom_promocao,problema_pagamento,1.070507000008547
+lsa,oi a promoção anunciada não foi aplicada no pedido :(,cupom_promocao-06,cupom_promocao,problema_pagamento,1.0641000000077838
+lsa,oi pessoal a promoção anunciada não foi aplicada no ped de hoje urgente,cupom_promocao-06,cupom_promocao,problema_pagamento,1.1338120000061735
+lsa,"Por favor, a promoção anunciada não foi aplicada no pedido por favor",cupom_promocao-06,cupom_promocao,problema_pagamento,1.1046250000106284
+lsa,A promoção anunciada não foi aplicada no pedido,cupom_promocao-06,cupom_promocao,problema_pagamento,1.0583000000110587
+lsa,oi pessoal a promoção anunciada não foi aplicada no pedido obrigado,cupom_promocao-06,cupom_promocao,problema_pagamento,1.1096149999900717
+lsa,BOM DIA A PROMOCAO ANUNCIADA NAO FOI APLICADA NO PEDIDO DE HOJE!!,cupom_promocao-06,cupom_promocao,problema_pagamento,1.1491629999795805
+lsa,tem algum cupom para novos clientes,cupom_promocao-07,cupom_promocao,falar_com_humano,1.110705000002099
+lsa,EI TEM ALGUM CUPOM PRA NOVOS CLIENTES,cupom_promocao-07,cupom_promocao,falar_com_humano,1.0754909999945994
+lsa,oi pessoal tem algum cupom para novos clientes #85883!!,cupom_promocao-07,cupom_promocao,falar_com_humano,1.130711999991263
+lsa,tem algum cupom para novos clientes do Pizzaria Bella preciso de ajuda,cupom_promocao-07,cupom_promocao,falar_com_humano,1.1144999999999072
+lsa,TEM ALGUM CUPOM PARA NOVOS CLIENTES!!,cupom_promocao-07,cupom_promocao,falar_com_humano,1.2352170000156093
+lsa,Ei tem algum cupom para novos clientes (pedido 47590),cupom_promocao-07,cupom_promocao,falar_com_humano,1.0933959999874787
+lsa,Tem algum cupom para novos clientes obrigado,cupom_promocao-07,cupom_promocao,falar_com_humano,1.1767620000000534
+lsa,Bom dia tem algum cupom para novos clientes do Sushi Yama,cupom_promocao-07,cupom_promocao,falar_com_humano,1.1004790000015419
+lsa,Tem algum cupom para novos clientes,cupom_promocao-07,cupom_promocao,falar_com_humano,1.128020999999535
+lsa,"olá, tudo bem? tem algum cupom para novos clientes no app :(",cupom_promocao-07,cupom_promocao,falar_com_humano,1.1114029999816921
+lsa,por que o desconto não valeu para esse restaurante,cupom_promocao-10,cupom_promocao,cancelar_pedido,1.1545710000007148
+lsa,Bom dia por que o desconto não valeu para esse restaurante por favor,cupom_promocao-10,cupom_promocao,cancelar_pedido,1.1245249999944917
+lsa,BOA NOITE POR QUE O DESCONTO NAO VALEU PARA ESSE RESTAURANTE,cupom_promocao-10,cupom_promocao,cancelar_pedido,1.0819549999894207
+lsa,por que o desconto não valeu para esse restaurante de hoje,cupom_promocao-10,cupom_promocao,cancelar_pedido,1.1384470000166402
+lsa,Por que o desconto não valeu para esse restaurante no app preciso de ajuda,cupom_promocao-10,cupom_promocao,cancelar_pedido,1.0843469999883837
+lsa,"Por favor, por que o desconto não valeu para esse restaurante (pedido 55959) alguém aí?",cupom_promocao-10,cupom_promocao,cancelar_pedido,1.1154530000112572
+lsa,EI POR QUE O DESCONTO NÃO VALEU PARA ESSE RESTAURANTE,cupom_promocao-10,cupom_promocao,cancelar_pedido,1.1023330000057285
+lsa,oi por que o desconto nao valeu para esse restaurante de hoje por favor,cupom_promocao-10,cupom_promocao,cancelar_pedido,1.173106999999618
+lsa,E aí por que o desconto não valeu para esse restaurante (pedido 29014)!!,cupom_promocao-10,cupom_promocao,cancelar_pedido,1.1135600000216073
+lsa,e aí por que o desconto não valeu para esse restaruante (pedido 96225),cupom_promocao-10,cupom_promocao,cancelar_pedido,1.0991670000066733
+lsa,dá para adicionar mais um item ao pedido,alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,1.1655490000066493
+lsa,Oi pessoal dá para adicionar mais um item ao pedio!!,alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,1.0861220000037974
+lsa,"POR FAVOR, DA PARA ADICIONAR MAIS UM ITEM AO PED #76132!!",alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,1.097052999995185
+lsa,DÁ PARA ADICIONAR MAIS UM ITEM AO PEDIDO #19045,alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,1.06394099998397
+lsa,dá para adicionar mais um item ao pedido (pedido 77502),alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,1.150614000010819
+lsa,E AÍ DÁ PARA ADICIONAR MAIS UM ITEM AO PEDIDO!!,alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,1.0928570000032778
+lsa,"olá, tudo bem? dá pra adicionar mais um item ao pedido de hoje alguém aí?",alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,1.1241800000050262
+lsa,dá para adicionar mais um item ao pedido no app :(,alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,1.0688710000010815
+lsa,oi dá para adicionar mais um item ao pedido do Pizzaria Bella :(,alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,1.2553910000008273
+lsa,E AI DA PARA ADIICONAR MAIS UM ITEM AO PED,alterar_pedido-03,alterar_pedido,item_faltando_ou_errado,1.0961989999884736
+lsa,quero tirar um item do pedido que já fiz,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,1.0967740000182857
+lsa,Oi quero tirar um item do pedido que ja fiz de hoje,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,1.1237120000089362
+lsa,ola qro tirar um item do pedido que ja fiz #3817,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,1.0891430000015134
+lsa,bom dia quero tirar um item do ped que já fiz (pedido 60795) urgente,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,1.1758969999959845
+lsa,Quero tirar um item do pedido que já fiz no app,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,1.1278549999929055
+lsa,quero tirar um item do pedido que já fiz no app?,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,1.2501970000187157
+lsa,Ei qro tirar um item do ped que ja fiz (pedido 17575) :(,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,1.1004739999975754
+lsa,Oi pessoal quero tirar um item do ped que já fiz de hoje,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,1.1004069999955846
+lsa,ei quero tirar um item do pedido que já fiz do Sushi Yama obrigado,alterar_pedido-04,alterar_pedido,alterar_pedido,1.0963389999858464
+lsa,boa noite quero tirar um item do pedido que já fiz #60255,alterar_pedido-04,alterar_pedido,item_faltando_ou_errado,1.1400980000075833
+lsa,posso alterar o horário de entrega,alterar_pedido-06,alterar_pedido,alterar_pedido,1.1026479999998173
+lsa,bom dia posso alterar o horário de entrega,alterar_pedido-06,alterar_pedido,atraso_entrega,1.1496009999802936
+lsa,posso alterar o horário de entrega (pedido 43739)?,alterar_pedido-06,alterar_pedido,alterar_pedido,1.1013579999996637
+lsa,ei posso alterar o horário de entrega de hoje?,alterar_pedido-06,alterar_pedido,alterar_pedido,1.1467070000037438
+lsa,posso alterar o horário de entrega no app urgente,alterar_pedido-06,alterar_pedido,alterar_pedido,1.0953299999982846
+lsa,Oi pessoal possso alterar o horario de entrega,alterar_pedido-06,alterar_pedido,alterar_pedido,1.1071460000096067
+lsa,posso alterar o horario de entrega #39155 :(,alterar_pedido-06,alterar_pedido,alterar_pedido,1.1005589999797394
+lsa,posso alterar o horário de entrega no app,alterar_pedido-06,alterar_pedido,alterar_pedido,1.072069999992209
+lsa,olá posso alterar o horário de entrega #18030 obrigado,alterar_pedido-06,alterar_pedido,alterar_pedido,1.1311299999761104
+lsa,E aí posso alterar o horário de entrega (pedido 78003) alguém aí?,alterar_pedido-06,alterar_pedido,alterar_pedido,1.0942860000113797
+lsa,"mudei de casa, atualizem o endereço do pedido",alterar_pedido-08,alterar_pedido,alterar_pedido,1.0738669999739159
+lsa,"olá, tudo bem? mudei de casa, atualizem o enereço do pedido de hoje",alterar_pedido-08,alterar_pedido,cancelar_pedido,1.0371730000144908
+lsa,"Oi pessoal mudei de casa, atualizem o endereço do ped",alterar_pedido-08,alterar_pedido,alterar_pedido,1.1178940000036164
+lsa,"Mudei de casa, atualizem o endereco do ped #27212 obrigado",alterar_pedido-08,alterar_pedido,alterar_pedido,1.117195000006177
+lsa,"Por favor, mudei de casa, atualizem o endereço do pedido",alterar_pedido-08,alterar_pedido,alterar_pedido,1.1694529999886072
+lsa,"Ei mudei de casa, atualizem o endereço do pedido de hoje",alterar_pedido-08,alterar_pedido,alterar_pedido,1.1199529999998958
+lsa,"Mudei de casa, ataulizem o endereco do ped no app obrigado",alterar_pedido-08,alterar_pedido,alterar_pedido,1.159965999988799
+lsa,"oi mudei de casa, atualizem o endereço do pedido de hoje obrigado",alterar_pedido-08,alterar_pedido,alterar_pedido,1.1213900000086596
+lsa,"Por favor, mudei de casa, atulaizem o endereco do pedido de hoje alguem ai?",alterar_pedido-08,alterar_pedido,alterar_pedido,1.1219470000014553
+lsa,"MUDEI DE CASA, ATUALIZEM O ENDEREÇO DO PEDIDO DO SUSHI YAMA?",alterar_pedido-08,alterar_pedido,alterar_pedido,1.0845639999956802
+lsa,esqueci minha senha,problema_conta-00,problema_conta,problema_conta,1.1353459999838833
+lsa,Boa noite esqueci minha senha no app,problema_conta-00,problema_conta,problema_conta,1.1333520000107455
+lsa,esqueci minha senah urgente,problema_conta-00,problema_conta,problema_conta,1.1079489999872294
+lsa,"por favor, esqueci minha snha no app",problema_conta-00,problema_conta,problema_conta,1.085806000020284
+lsa,olá esqueci minha senha do Pizzaria Bella,problema_conta-00,problema_conta,problema_conta,1.1181730000089374
+lsa,"ola, tudo bem? esqueci minha senah de hoje",problema_conta-00,problema_conta,problema_conta,1.0591440000098373
+lsa,"ola, tudo bem? esqueci minha senha #65883 obrigado",problema_conta-00,problema_conta,problema_conta,1.1197259999846665
+lsa,Esqueci minha senha #92803 :(,problema_conta-00,problema_conta,problema_conta,1.0870460000091953
+lsa,boa noite esqueci minha senha urgente,problema_conta-00,problema_conta,cupom_promocao,1.0803559999885692
+lsa,olá esqueci minha senha alguém aí?,problema_conta-00,problema_conta,problema_conta,1.0449279999988903
+lsa,minha conta foi bloqueada,problema_conta-06,problema_conta,problema_conta,1.1635540000156652
+lsa,"Por favor, minha conta foi bloqueada!!",problema_conta-06,problema_conta,problema_conta,1.0897090000128173
+lsa,oi minha conta foi bloqueada de hoje?,problema_conta-06,problema_conta,problema_conta,1.103794999977481
+lsa,"POR FAVOR, MINHA CONTA FOI BLOQUEADA",problema_conta-06,problema_conta,problema_conta,1.0462580000023536
+lsa,Oi minha conta foi bloqueada de hoje!!,problema_conta-06,problema_conta,problema_conta,1.1096879999854536
+lsa,Bom dia minha conta foi bloqueada (pedido 74445) :(,problema_conta-06,problema_conta,problema_conta,1.0907610000003842
+lsa,Olá minha conta foi bloqueada alguém aí?,problema_conta-06,problema_conta,problema_conta,1.1255049999761013
+lsa,e ai minha conta foi blooqueada no app,problema_conta-06,problema_conta,problema_conta,1.051416999985122
+lsa,oi minha conta foi bloqueada no app,problema_conta-06,problema_conta,problema_conta,1.1274240000034297
+lsa,Ola minha conta foi bloquueada (pedido 40768) alguem ai?,problema_conta-06,problema_conta,problema_conta,1.0554259999935311
+lsa,acho que alguém invadiu meu perfil,problema_conta-07,problema_conta,status_pedido,1.1273189999769784
+lsa,ola acho que alguem invadiu meu perfil (pedido 6123),problema_conta-07,problema_conta,status_pedido,1.1047389999987445
+lsa,acho que alguém invadiu meu perfil #71070 preciso de ajuda,problema_conta-07,problema_conta,falar_com_humano,1.121307000005345
+lsa,olá acho que alguém invadiu meu perffil urgente,problema_conta-07,problema_conta,status_pedido,1.0565979999910269
+lsa,acho que alguém invadiu meu perfil (pedido 24165)!!,problema_conta-07,problema_conta,status_pedido,1.0851810000076512
+lsa,"Por favor, acho que alguém invadiu meu perfil no app preciso de ajuda",problema_conta-07,problema_conta,falar_com_humano,1.1382870000034018
+lsa,acho que alguem invadiu meu perfil #77239 :(,problema_conta-07,problema_conta,status_pedido,1.0967800000116767
+lsa,Oi pessoal acho que alguém invadiu meu perfil,problema_conta-07,problema_conta,problema_pagamento,1.0635130000196114
+lsa,Acho que alguem invadiu meu perfil por favor,problema_conta-07,problema_conta,status_pedido,1.096872000005078
+lsa,boa noite acho que alguém invadiu meu perfil,problema_conta-07,problema_conta,status_pedido,1.0867430000018885
+lsa,não consigo criar uma conta nova,problema_conta-10,problema_conta,problema_conta,1.1043930000198543
+lsa,ola nao consigo criar uma conta nova (pedido 75981) alguem ai?,problema_conta-10,problema_conta,problema_conta,1.0389329999895835
+lsa,Boa noite n consigo criar uma conta nova?,problema_conta-10,problema_conta,problema_pagamento,1.158411000005799
+lsa,OI PESSOAL NÃO CONSIGO CRIAR UMA CONTA NOVA URGENTE,problema_conta-10,problema_conta,problema_conta,1.0649580000006154
+lsa,n consigo criar uma conta nova no app,problema_conta-10,problema_conta,problema_conta,1.0613899999896148
+lsa,Ei não consigo crriar uma conta nova,problema_conta-10,problema_conta,problema_conta,1.059021000003213
+lsa,não consigo criar uma conta nova?,problema_conta-10,problema_conta,problema_conta,1.1033909999866864
+lsa,boa noite nao consigo ciar uma conta nova!!,problema_conta-10,problema_conta,problema_conta,1.0541570000270895
+lsa,"ola, tudo bem? nao consigo criar uma conta nova!!",problema_conta-10,problema_conta,problema_conta,1.0940040000093632
+lsa,não consigo criar uma conta nova preciso de ajuda,problema_conta-10,problema_conta,problema_conta,1.0630670000182363
+lsa,o lanche veio com gosto estranho,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,1.1195809999833273
+lsa,O lanche veio com gosto estranho (pedido 55357) obrigado,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,1.0332349999941925
+lsa,ei o lanche veio com gosto estranho de hoje obrigado,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,1.0528189999945425
+lsa,o lanche veio com gosto estranho preciso de ajuda,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,1.0116640000035204
+lsa,o lanche veio com gosto estranho alguém aí?,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,1.0911729999918407
+lsa,Bom dia o lanche veio com gosto estranho (pedido 73470),qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,1.01223699999764
+lsa,"Olá, tudo bem? o lanche veio com gosto estranho!!",qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,1.1002130000008492
+lsa,O lanche veio com gosto estranho,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,1.0831600000074104
+lsa,olá o lanche veio com gosto estranho no app,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,1.0870520000025863
+lsa,Ei o lanche veio com gosto estranho,qualidade_comida-01,qualidade_comida,item_faltando_ou_errado,1.0180660000003172
+lsa,o sorvete chegou derretido,qualidade_comida-06,qualidade_comida,qualidade_comida,1.0485040000105528
+lsa,"Por favor, o sorvete chegou derretido do Burger Ponto :(",qualidade_comida-06,qualidade_comida,qualidade_comida,1.0921559999985675
+lsa,ei o sorvete chegou derretido urgente,qualidade_comida-06,qualidade_comida,qualidade_comida,1.0797770000010587
+lsa,ei o sorvete chegou derretido preciso de ajuda,qualidade_comida-06,qualidade_comida,qualidade_comida,1.0487490000059552
+lsa,oi pessoal o srovete chegou derretido (pedido 97493) :(,qualidade_comida-06,qualidade_comida,qualidade_comida,1.0946479999915937
+lsa,bom dia o sorvete chegou derretido de hoje por favor,qualidade_comida-06,qualidade_comida,qualidade_comida,1.075953999986723
+lsa,"Por favor, o sorvete chegou derretido do Sushi Yama!!",qualidade_comida-06,qualidade_comida,alterar_pedido,1.1144359999946118
+lsa,"por favor, o sorvete chegou derretido",qualidade_comida-06,qualidade_comida,qualidade_comida,1.06240300002014
+lsa,Olá o sorvete chegou derretido do Pizzaria Bella preciso de ajuda,qualidade_comida-06,qualidade_comida,qualidade_comida,1.19684399999187
+lsa,O sorvete chegou derretido (pedido 41543)?,qualidade_comida-06,qualidade_comida,qualidade_comida,1.0455670000055761
+lsa,passei mal depois de comer o pedido,qualidade_comida-07,qualidade_comida,status_pedido,1.076492000009921
+lsa,olá passei mal depois de comer o pedido do Sushi Yama,qualidade_comida-07,qualidade_comida,alterar_pedido,1.0716349999881913
+lsa,Ei passei mal depois de comer o pedido!!,qualidade_comida-07,qualidade_comida,cancelar_pedido,1.0933780000073057
+lsa,olá pasei mal depois de comer o pedido,qualidade_comida-07,qualidade_comida,cancelar_pedido,1.1109339999961776
+lsa,Passei mal depois de comer o ped (pedido 66797),qualidade_comida-07,qualidade_comida,status_pedido,1.0894619999817223
+lsa,Passei mal depois de comer o pedido :(,qualidade_comida-07,qualidade_comida,status_pedido,1.08352499998432
+lsa,olá passei mal depois de comer o pedido no app?,qualidade_comida-07,qualidade_comida,status_pedido,1.0833489999981794
+lsa,Olá passei mal depois de comer o pedido,qualidade_comida-07,qualidade_comida,cancelar_pedido,1.0826879999967787
+lsa,boa noite passei mal depois de comer o ped do Pizzaria Bella obrigado,qualidade_comida-07,qualidade_comida,alterar_pedido,1.0589009999932841
+lsa,BOA NOITE PASSEI MAL DEPOIS DE COMER O PEDIDO DE HOJE :(,qualidade_comida-07,qualidade_comida,item_faltando_ou_errado,1.1194760000137194
+lsa,o sushi parecia velho,qualidade_comida-09,qualidade_comida,alterar_pedido,1.0701070000038726
+lsa,boa noite o sushi parecia velho,qualidade_comida-09,qualidade_comida,alterar_pedido,1.0734470000102192
+lsa,o sushi paarecia velho do Sushi Yama :(,qualidade_comida-09,qualidade_comida,alterar_pedido,1.0723750000067866
+lsa,boa noite o sushi parecia veloh de hoje!!,qualidade_comida-09,qualidade_comida,alterar_pedido,1.0915470000156802
+lsa,Olá o sushi parecia velho de hoje preciso de ajuda,qualidade_comida-09,qualidade_comida,alterar_pedido,1.1219510000159971
+lsa,"por favor, o sushi parecia velho no app",qualidade_comida-09,qualidade_comida,alterar_pedido,1.0798989999898367
+lsa,ei o sushi parecia velho?,qualidade_comida-09,qualidade_comida,alterar_pedido,1.052815999997847
+lsa,oi pessoal o sushi parecia vleho preciso de ajuda,qualidade_comida-09,qualidade_comida,cancelar_pedido,1.0812089999774344
+lsa,"OLÁ, TUDO BEM? O SUSHI PARECIA VELHO #14819 OBRIGADO",qualidade_comida-09,qualidade_comida,alterar_pedido,1.1272280000014234
+lsa,oi pessoal o sushi parecia velho urgente,qualidade_comida-09,qualidade_comida,problema_pagamento,1.0486089999801607
+lsa,não quero falar com robô,falar_com_humano-02,falar_com_humano,falar_com_humano,1.193791999980931
+lsa,"Ola, tudo bem? nao quero falar com robo de hoje!!",falar_com_humano-02,falar_com_humano,falar_com_humano,1.1206000000072436
+lsa,não quero falar com robô alguém aí?,falar_com_humano-02,falar_com_humano,falar_com_humano,1.1341900000161331
+lsa,"olá, tudo bem? não quero falar com robô no app",falar_com_humano-02,falar_com_humano,falar_com_humano,1.1247529999991457
+lsa,ei não quero falar com robô?,falar_com_humano-02,falar_com_humano,falar_com_humano,1.1802049999971587
+lsa,oi pessoal nao quero falar com robo urgente,falar_com_humano-02,falar_com_humano,falar_com_humano,1.093513000000712
+lsa,boa noite não quero falar com robô no app urgente,falar_com_humano-02,falar_com_humano,falar_com_humano,1.1232129999996232
+lsa,Ei não quero falar com robô no app?,falar_com_humano-02,falar_com_humano,falar_com_humano,1.0781199999883029
+lsa,ei n quero falar com robô,falar_com_humano-02,falar_com_humano,falar_com_humano,1.2291339999990214
+lsa,E aí n quero falar com robô!!,falar_com_humano-02,falar_com_humano,falar_com_humano,1.0916410000163523
+lsa,"isso não resolve, chama um supervisor",falar_com_humano-05,falar_com_humano,atraso_entrega,1.1954120000154944
+lsa,"boa noite isso não resolve, chama um supervisor (pedido 99292) preciso de ajuda",falar_com_humano-05,falar_com_humano,atraso_entrega,1.138534000006075
+lsa,"OLÁ, TUDO BEM? ISSO NÃO RESOLVE, CHAMA UM SUPERVISOR ALGUÉM AÍ?",falar_com_humano-05,falar_com_humano,falar_com_humano,1.1694620000071154
+lsa,"boa noite isso não resolve, chama um supervisor",falar_com_humano-05,falar_com_humano,atraso_entrega,1.0875760000033097
+lsa,"oi pessoal isso nao resolve, chama um supervisor",falar_com_humano-05,falar_com_humano,problema_pagamento,1.210997000015368
+lsa,"Boa noite isso nao resolve, chama um supervisor no app!!",falar_com_humano-05,falar_com_humano,atraso_entrega,1.1026539999932083
+lsa,"olá, tudo bem? isso não resolve, chama um supervisor no app obrigado",falar_com_humano-05,falar_com_humano,problema_conta,1.1307540000018435
+lsa,"Oi pessoal isso não resolve, chama um supervisor urgente",falar_com_humano-05,falar_com_humano,problema_pagamento,1.158326999984638
+lsa,"isso n resolve, chama um supervisor",falar_com_humano-05,falar_com_humano,atraso_entrega,1.1650950000046123
+lsa,"Oi isso n resolve, chama um supervisor do Cantina da Vó",falar_com_humano-05,falar_com_humano,atraso_entrega,1.104908999991494
+lsa,quero abrir uma reclamação formal,falar_com_humano-06,falar_com_humano,problema_conta,1.1485969999966983
+lsa,E aí quero abrir uma reclamaãço formal (pedido 91491) :(,falar_com_humano-06,falar_com_humano,problema_conta,1.1814780000065639
+lsa,"Ola, tudo bem? quero abrir uma reclamacao formal do Cantina da Vo alguem ai?",falar_com_humano-06,falar_com_humano,problema_conta,1.1491630000080022
+lsa,"OLA, TUDO BEM? QUERO ABRIR UMA RECLAMACAO FORMAL",falar_com_humano-06,falar_com_humano,problema_conta,1.0799770000176068
+lsa,Boa noite quero abrir uma reclamacao formla do Cantina da Vo obrigado,falar_com_humano-06,falar_com_humano,atraso_entrega,1.1570259999871269
+lsa,Ei quero abrir uma reclamação formal (pedido 69482) urgente,falar_com_humano-06,falar_com_humano,alterar_pedido,1.1340730000028998
+lsa,olá quero abrir uma reclamação formal de hoje :(,falar_com_humano-06,falar_com_humano,problema_conta,1.1656810000033602
+lsa,"OLA, TUDO BEM? QUERO ABRIR UMA RECLAMACAO FORMAL :(",falar_com_humano-06,falar_com_humano,problema_conta,1.0943300000008094
+lsa,oi qro abrir uma reclamacao formal (pedido 92942) alguem ai?,falar_com_humano-06,falar_com_humano,reembolso,1.118885000011005
+lsa,oi quero abrir uma reclamação formal urgente,falar_com_humano-06,falar_com_humano,problema_conta,1.1230379999744855
+lsa,peça para um analista entrar em contato comigo,falar_com_humano-10,falar_com_humano,falar_com_humano,1.173321000010219
+lsa,Olá peça para um analista entrar em contato comigo no app alguém aí?,falar_com_humano-10,falar_com_humano,falar_com_humano,1.4051950000180113
+lsa,boa noite peça para um analista entrar em contato comigo #67448 obrigado,falar_com_humano-10,falar_com_humano,status_pedido,1.1594139999999697
+lsa,peça pra um analista entrar em contato comigo #75447 preciso de ajuda,falar_com_humano-10,falar_com_humano,alterar_pedido,1.1450409999724798
+lsa,boa noite peça para um analista entrar em contato comigo,falar_com_humano-10,falar_com_humano,status_pedido,1.1440090000007785
+lsa,Bom dia peça pra um analista entrra em contato comigo #21203,falar_com_humano-10,falar_com_humano,falar_com_humano,1.2769919999868762
+lsa,peca para um analista entrar em contato comigo no app obrigado,falar_com_humano-10,falar_com_humano,falar_com_humano,1.1069800000029772
+lsa,e aí peça para um analista entrar em contato comigo no app,falar_com_humano-10,falar_com_humano,falar_com_humano,1.1712939999881655
+lsa,Peça para um analista enrar em contato comigo de hoje?,falar_com_humano-10,falar_com_humano,falar_com_humano,1.1201599999992595
+lsa,Boa noite peca pra um analista entrar em conttao comigo de hoje,falar_com_humano-10,falar_com_humano,item_faltando_ou_errado,1.1592410000105247
