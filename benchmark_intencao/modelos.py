@@ -201,17 +201,19 @@ class LLMZeroShot(Classificador):
         )
 
     def prever(self, texto):
+        extras = {"reasoning_effort": "low"} if "gpt-oss" in self.modelo else {}
         ultimo_erro = None
         for tentativa in range(self.tentativas):
             try:
                 resp = self.client.chat.completions.create(
                     model=self.modelo,
-                    max_tokens=24,
+                    max_tokens=256,
                     temperature=0,
                     messages=[
                         {"role": "system", "content": self.system},
                         {"role": "user", "content": texto},
                     ],
+                    **extras,
                 )
                 break
             except Exception as e:  # noqa: BLE001 - erros de rede/limite de taxa: tenta de novo
@@ -228,7 +230,7 @@ class LLMZeroShot(Classificador):
         )
 
     def detalhes(self):
-        return f"modelo={self.modelo}, max_tokens=24, temperature=0, sem exemplos (zero-shot)"
+        return f"modelo={self.modelo}, max_tokens=256, temperature=0, sem exemplos (zero-shot)"
 
 
 def criar(chave: str, llm_modelo: str | None = None, modelo_embeddings: str = MODELO_EMBEDDINGS) -> Classificador:
