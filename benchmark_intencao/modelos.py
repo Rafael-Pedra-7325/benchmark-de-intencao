@@ -6,7 +6,6 @@ Interface comum: `preparar()` (verifica dependências), `treinar(textos, rotulos
 from __future__ import annotations
 
 import os
-import re
 import time
 from dataclasses import dataclass
 
@@ -37,7 +36,7 @@ class Classificador:
     nome = ""
     descricao = ""
     aquecer = True  # fazer uma predição descartável antes de medir latência
-    local = True    # False = chamada de API paga
+    local = True    # False = chamada de API externa
 
     def preparar(self) -> None:
         """Levanta DependenciaAusente se o modelo não puder rodar."""
@@ -167,11 +166,11 @@ def extrair_rotulo(resposta: str, rotulos) -> str:
 class LLMZeroShot(Classificador):
     chave = "llm"
     nome = "LLM zero-shot"
-    descricao = "Sem treino: o modelo recebe a lista de intenções e classifica cada mensagem via API."
+    descricao = "Sem treino: o modelo recebe a lista de intenções e classifica cada mensagem via API (Groq)."
     aquecer = False
     local = False
 
-    def __init__(self, modelo: str | None = None, client=None, tentativas: int = 3):
+    def __init__(self, modelo: str | None = None, client=None, tentativas: int = 5):
         self.modelo = modelo or os.environ.get("LLM_MODELO") or MODELO_LLM
         self.client = client
         self.tentativas = tentativas
@@ -181,12 +180,12 @@ class LLMZeroShot(Classificador):
         if self.client is not None:
             return
         try:
-            import anthropic
+            from groq import Groq
         except ImportError as e:
-            raise DependenciaAusente("pacote 'anthropic' não instalado (pip install -e '.[llm]')") from e
-        if not os.environ.get("ANTHROPIC_API_KEY"):
-            raise DependenciaAusente("variável de ambiente ANTHROPIC_API_KEY não definida")
-        self.client = anthropic.Anthropic()
+            raise DependenciaAusente("pacote 'groq' não instalado (pip install -e '.[llm]')") from e
+        if not os.environ.get("GROQ_API_KEY"):
+            raise DependenciaAusente("variável de ambiente GROQ_API_KEY não definida")
+        self.client = Groq()
 
     def treinar(self, textos, rotulos, grupos=None):
         # Zero-shot não aprende nada: só captura o conjunto de rótulos para montar o prompt.
@@ -205,9 +204,14 @@ class LLMZeroShot(Classificador):
         ultimo_erro = None
         for tentativa in range(self.tentativas):
             try:
-                resp = self.client.messages.create(
-                    model=self.modelo, max_tokens=24, system=self.system,
-                    messages=[{"role": "user", "content": texto}],
+                resp = self.client.chat.completions.create(
+                    model=self.modelo,
+                    max_tokens=24,
+                    temperature=0,
+                    messages=[
+                        {"role": "system", "content": self.system},
+                        {"role": "user", "content": texto},
+                    ],
                 )
                 break
             except Exception as e:  # noqa: BLE001 - erros de rede/limite de taxa: tenta de novo
@@ -215,16 +219,16 @@ class LLMZeroShot(Classificador):
                 time.sleep(2 ** tentativa)
         else:
             raise RuntimeError(f"falha na API após {self.tentativas} tentativas: {ultimo_erro}") from ultimo_erro
-        saida = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")
+        saida = (resp.choices[0].message.content or "") if getattr(resp, "choices", None) else ""
         uso = getattr(resp, "usage", None)
         return Predicao(
             extrair_rotulo(saida, self.rotulos),
-            getattr(uso, "input_tokens", 0) or 0,
-            getattr(uso, "output_tokens", 0) or 0,
+            getattr(uso, "prompt_tokens", 0) or 0,
+            getattr(uso, "completion_tokens", 0) or 0,
         )
 
     def detalhes(self):
-        return f"modelo={self.modelo}, max_tokens=24, sem exemplos (zero-shot)"
+        return f"modelo={self.modelo}, max_tokens=24, temperature=0, sem exemplos (zero-shot)"
 
 
 def criar(chave: str, llm_modelo: str | None = None, modelo_embeddings: str = MODELO_EMBEDDINGS) -> Classificador:
